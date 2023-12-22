@@ -1,0 +1,974 @@
+2023-12-16 18:21:38,639 - INFO - Adding head 'default' with config {'head_type': 'masked_lm', 'vocab_size': 30522, 'embedding_size': 768, 'layers': 2, 'activation_function': 'gelu', 'layer_norm': True, 'bias': True, 'shift_labels': False, 'label2id': None}.
+2023-12-16 18:21:39,138 - INFO - Adding adapter 'ia3_adapter'.
+2023-12-16 18:21:39,142 - INFO - Could not identify valid prediction head(s) from setup 'Stack[ia3_adapter]'.
+2023-12-16 18:21:39,161 - INFO - Current relation: ['person countries of residence', 'organization top members employees', 'organization member of', 'person origin', 'person title', 'organization country of headquarters']
+2023-12-16 18:22:39,500 - INFO - Train Simple Finished!
+2023-12-16 18:24:05,912 - INFO - 600
+2023-12-16 18:24:05,912 - INFO - 1254
+2023-12-16 18:29:02,971 - INFO - Train First Finished!
+2023-12-16 18:29:21,293 - INFO - Length seen relation: 6
+2023-12-16 18:29:21,293 - INFO - Train data memory: 6
+2023-12-16 18:29:31,332 - INFO - Train Memory Finished!
+2023-12-16 18:29:31,332 - INFO - 518
+2023-12-16 18:29:31,332 - INFO - 518
+2023-12-16 18:29:31,332 - INFO - ------------------------------------------------------------Evaluating------------------------------------------------------------
+2023-12-16 18:29:46,125 - INFO - Restart Num 1
+2023-12-16 18:29:46,126 - INFO - Task--1:
+2023-12-16 18:29:46,126 - INFO - Current test acc: 0.862934362934363
+2023-12-16 18:29:46,126 - INFO - History test acc: 0.862934362934363
+2023-12-16 18:29:46,126 - INFO - Accuracy_test_current: [0.862934362934363]
+2023-12-16 18:29:46,126 - INFO - Accuracy_test_total: [0.862934362934363]
+2023-12-16 18:29:53,391 - INFO - Accuracy_per_task_current_test: [0.862934362934363]
+2023-12-16 18:29:53,511 - INFO - Current relation: ['person date of birth', 'person stateorprovince of birth', 'person parents', 'person employee of', 'person stateorprovince of death']
+2023-12-16 18:30:02,479 - INFO - Train Simple Finished!
+2023-12-16 18:30:07,698 - INFO - 25
+2023-12-16 18:30:07,698 - INFO - 25
+2023-12-16 18:30:20,247 - INFO - Train First Finished!
+2023-12-16 18:30:23,825 - INFO - Length seen relation: 11
+2023-12-16 18:30:23,826 - INFO - Train data memory: 11
+2023-12-16 18:30:35,884 - INFO - Train Memory Finished!
+2023-12-16 18:30:35,884 - INFO - 219
+2023-12-16 18:30:35,884 - INFO - 737
+2023-12-16 18:30:35,884 - INFO - ------------------------------------------------------------Evaluating------------------------------------------------------------
+2023-12-16 18:30:49,415 - INFO - Restart Num 1
+2023-12-16 18:30:49,415 - INFO - Task--2:
+2023-12-16 18:30:49,415 - INFO - Current test acc: 0.4337899543378995
+2023-12-16 18:30:49,415 - INFO - History test acc: 0.6445047489823609
+2023-12-16 18:30:49,415 - INFO - Accuracy_test_current: [0.862934362934363, 0.4337899543378995]
+2023-12-16 18:30:49,415 - INFO - Accuracy_test_total: [0.862934362934363, 0.6445047489823609]
+2023-12-16 18:30:59,905 - INFO - Accuracy_per_task_current_test: [0.7335907335907336, 0.4337899543378995]
+2023-12-16 18:31:00,088 - INFO - Current relation: ['person country of birth', 'organization website', 'organization shareholders', 'organization dissolved', 'organization founded by']
+2023-12-16 18:31:08,303 - INFO - Train Simple Finished!
+2023-12-16 18:31:14,508 - INFO - 25
+2023-12-16 18:31:14,508 - INFO - 25
+2023-12-16 18:31:27,795 - INFO - Train First Finished!
+2023-12-16 18:31:31,255 - INFO - Length seen relation: 16
+2023-12-16 18:31:31,255 - INFO - Train data memory: 16
+2023-12-16 18:31:46,965 - INFO - Train Memory Finished!
+2023-12-16 18:31:46,966 - INFO - 114
+2023-12-16 18:31:46,966 - INFO - 851
+2023-12-16 18:31:46,966 - INFO - ------------------------------------------------------------Evaluating------------------------------------------------------------
+2023-12-16 18:32:00,578 - INFO - Restart Num 1
+2023-12-16 18:32:00,578 - INFO - Task--3:
+2023-12-16 18:32:00,578 - INFO - Current test acc: 0.4473684210526316
+2023-12-16 18:32:00,578 - INFO - History test acc: 0.5158636897767332
+2023-12-16 18:32:00,578 - INFO - Accuracy_test_current: [0.862934362934363, 0.4337899543378995, 0.4473684210526316]
+2023-12-16 18:32:00,578 - INFO - Accuracy_test_total: [0.862934362934363, 0.6445047489823609, 0.5158636897767332]
+2023-12-16 18:32:12,843 - INFO - Accuracy_per_task_current_test: [0.5405405405405406, 0.4931506849315068, 0.4473684210526316]
+2023-12-16 18:32:13,023 - INFO - Current relation: ['person cause of death', 'organization political religious affiliation', 'organization stateorprovince of headquarters', 'person other family', 'person city of death']
+2023-12-16 18:32:23,741 - INFO - Train Simple Finished!
+2023-12-16 18:32:31,293 - INFO - 25
+2023-12-16 18:32:31,294 - INFO - 25
+2023-12-16 18:32:44,610 - INFO - Train First Finished!
+2023-12-16 18:32:48,015 - INFO - Length seen relation: 21
+2023-12-16 18:32:48,015 - INFO - Train data memory: 21
+2023-12-16 18:33:08,247 - INFO - Train Memory Finished!
+2023-12-16 18:33:08,248 - INFO - 201
+2023-12-16 18:33:08,248 - INFO - 1052
+2023-12-16 18:33:08,248 - INFO - ------------------------------------------------------------Evaluating------------------------------------------------------------
+2023-12-16 18:33:25,927 - INFO - Restart Num 1
+2023-12-16 18:33:25,927 - INFO - Task--4:
+2023-12-16 18:33:25,927 - INFO - Current test acc: 0.572139303482587
+2023-12-16 18:33:25,927 - INFO - History test acc: 0.49809885931558934
+2023-12-16 18:33:25,927 - INFO - Accuracy_test_current: [0.862934362934363, 0.4337899543378995, 0.4473684210526316, 0.572139303482587]
+2023-12-16 18:33:25,928 - INFO - Accuracy_test_total: [0.862934362934363, 0.6445047489823609, 0.5158636897767332, 0.49809885931558934]
+2023-12-16 18:33:41,240 - INFO - Accuracy_per_task_current_test: [0.4864864864864865, 0.3607305936073059, 0.6842105263157895, 0.572139303482587]
+2023-12-16 18:33:41,422 - INFO - Current relation: ['organization subsidiaries', 'organization parents', 'organization alternate names', 'organization city of headquarters', 'person siblings']
+2023-12-16 18:33:54,942 - INFO - Train Simple Finished!
+2023-12-16 18:34:03,591 - INFO - 25
+2023-12-16 18:34:03,591 - INFO - 25
+2023-12-16 18:34:17,456 - INFO - Train First Finished!
+2023-12-16 18:34:20,854 - INFO - Length seen relation: 26
+2023-12-16 18:34:20,854 - INFO - Train data memory: 26
+2023-12-16 18:34:45,051 - INFO - Train Memory Finished!
+2023-12-16 18:34:45,052 - INFO - 343
+2023-12-16 18:34:45,052 - INFO - 1395
+2023-12-16 18:34:45,052 - INFO - ------------------------------------------------------------Evaluating------------------------------------------------------------
+2023-12-16 18:35:09,096 - INFO - Restart Num 1
+2023-12-16 18:35:09,097 - INFO - Task--5:
+2023-12-16 18:35:09,097 - INFO - Current test acc: 0.15743440233236153
+2023-12-16 18:35:09,097 - INFO - History test acc: 0.3734767025089606
+2023-12-16 18:35:09,097 - INFO - Accuracy_test_current: [0.862934362934363, 0.4337899543378995, 0.4473684210526316, 0.572139303482587, 0.15743440233236153]
+2023-12-16 18:35:09,097 - INFO - Accuracy_test_total: [0.862934362934363, 0.6445047489823609, 0.5158636897767332, 0.49809885931558934, 0.3734767025089606]
+2023-12-16 18:35:29,278 - INFO - Accuracy_per_task_current_test: [0.42084942084942084, 0.3515981735159817, 0.6929824561403509, 0.4626865671641791, 0.15743440233236153]
+2023-12-16 18:35:29,462 - INFO - Current relation: ['organization founded', 'person age', 'person city of birth', 'organization members', 'person religion']
+2023-12-16 18:35:42,367 - INFO - Train Simple Finished!
+2023-12-16 18:35:52,191 - INFO - 25
+2023-12-16 18:35:52,192 - INFO - 25
+2023-12-16 18:36:06,557 - INFO - Train First Finished!
+2023-12-16 18:36:09,888 - INFO - Length seen relation: 31
+2023-12-16 18:36:09,888 - INFO - Train data memory: 31
+2023-12-16 18:36:38,728 - INFO - Train Memory Finished!
+2023-12-16 18:36:38,729 - INFO - 220
+2023-12-16 18:36:38,729 - INFO - 1615
+2023-12-16 18:36:38,729 - INFO - ------------------------------------------------------------Evaluating------------------------------------------------------------
+2023-12-16 18:37:04,310 - INFO - Restart Num 1
+2023-12-16 18:37:04,311 - INFO - Task--6:
+2023-12-16 18:37:04,311 - INFO - Current test acc: 0.6590909090909091
+2023-12-16 18:37:04,311 - INFO - History test acc: 0.4278637770897833
+2023-12-16 18:37:04,311 - INFO - Accuracy_test_current: [0.862934362934363, 0.4337899543378995, 0.4473684210526316, 0.572139303482587, 0.15743440233236153, 0.6590909090909091]
+2023-12-16 18:37:04,311 - INFO - Accuracy_test_total: [0.862934362934363, 0.6445047489823609, 0.5158636897767332, 0.49809885931558934, 0.3734767025089606, 0.4278637770897833]
+2023-12-16 18:37:27,655 - INFO - Accuracy_per_task_current_test: [0.44787644787644787, 0.3424657534246575, 0.6228070175438597, 0.5771144278606966, 0.15160349854227406, 0.6590909090909091]
+2023-12-16 18:37:27,841 - INFO - Current relation: ['person stateorprovinces of residence', 'person date of death', 'organization number of employees members', 'person alternate names', 'person spouse']
+2023-12-16 18:37:42,057 - INFO - Train Simple Finished!
+2023-12-16 18:37:53,113 - INFO - 25
+2023-12-16 18:37:53,113 - INFO - 25
+2023-12-16 18:38:07,934 - INFO - Train First Finished!
+2023-12-16 18:38:11,229 - INFO - Length seen relation: 36
+2023-12-16 18:38:11,229 - INFO - Train data memory: 36
+2023-12-16 18:38:45,341 - INFO - Train Memory Finished!
+2023-12-16 18:38:45,341 - INFO - 231
+2023-12-16 18:38:45,341 - INFO - 1846
+2023-12-16 18:38:45,341 - INFO - ------------------------------------------------------------Evaluating------------------------------------------------------------
+2023-12-16 18:39:14,264 - INFO - Restart Num 1
+2023-12-16 18:39:14,264 - INFO - Task--7:
+2023-12-16 18:39:14,264 - INFO - Current test acc: 0.3593073593073593
+2023-12-16 18:39:14,264 - INFO - History test acc: 0.36619718309859156
+2023-12-16 18:39:14,264 - INFO - Accuracy_test_current: [0.862934362934363, 0.4337899543378995, 0.4473684210526316, 0.572139303482587, 0.15743440233236153, 0.6590909090909091, 0.3593073593073593]
+2023-12-16 18:39:14,264 - INFO - Accuracy_test_total: [0.862934362934363, 0.6445047489823609, 0.5158636897767332, 0.49809885931558934, 0.3734767025089606, 0.4278637770897833, 0.36619718309859156]
+2023-12-16 18:39:41,163 - INFO - Accuracy_per_task_current_test: [0.4034749034749035, 0.2511415525114155, 0.5964912280701754, 0.4527363184079602, 0.1749271137026239, 0.5, 0.3593073593073593]
+2023-12-16 18:39:41,349 - INFO - Current relation: ['person cities of residence', 'person schools attended', 'person country of death', 'person children', 'person charges']
+2023-12-16 18:39:58,958 - INFO - Train Simple Finished!
+2023-12-16 18:40:11,387 - INFO - 25
+2023-12-16 18:40:11,387 - INFO - 25
+2023-12-16 18:40:26,625 - INFO - Train First Finished!
+2023-12-16 18:40:30,051 - INFO - Length seen relation: 41
+2023-12-16 18:40:30,051 - INFO - Train data memory: 41
+2023-12-16 18:41:09,559 - INFO - Train Memory Finished!
+2023-12-16 18:41:09,559 - INFO - 276
+2023-12-16 18:41:09,559 - INFO - 2122
+2023-12-16 18:41:09,559 - INFO - ------------------------------------------------------------Evaluating------------------------------------------------------------
+2023-12-16 18:41:42,609 - INFO - Restart Num 1
+2023-12-16 18:41:42,610 - INFO - Task--8:
+2023-12-16 18:41:42,610 - INFO - Current test acc: 0.5652173913043478
+2023-12-16 18:41:42,610 - INFO - History test acc: 0.37983034872761545
+2023-12-16 18:41:42,610 - INFO - Accuracy_test_current: [0.862934362934363, 0.4337899543378995, 0.4473684210526316, 0.572139303482587, 0.15743440233236153, 0.6590909090909091, 0.3593073593073593, 0.5652173913043478]
+2023-12-16 18:41:42,610 - INFO - Accuracy_test_total: [0.862934362934363, 0.6445047489823609, 0.5158636897767332, 0.49809885931558934, 0.3734767025089606, 0.4278637770897833, 0.36619718309859156, 0.37983034872761545]
+2023-12-16 18:42:13,294 - INFO - Accuracy_per_task_current_test: [0.42857142857142855, 0.2146118721461187, 0.5701754385964912, 0.34328358208955223, 0.1749271137026239, 0.5363636363636364, 0.2987012987012987, 0.5652173913043478]
+2023-12-16 18:42:13,481 - INFO - Result_whole_test: [array([86.29343629, 64.4504749 , 51.58636898, 49.80988593, 37.34767025,
+       42.78637771, 36.61971831, 37.98303487])]
+2023-12-16 18:42:13,482 - INFO - Avg_result_cur_test: [0.86293436 0.43378995 0.44736842 0.5721393  0.1574344  0.65909091
+ 0.35930736 0.56521739]
+2023-12-16 18:42:13,482 - INFO - Avg_result_all_test: [86.29343629 64.4504749  51.58636898 49.80988593 37.34767025 42.78637771
+ 36.61971831 37.98303487]
+2023-12-16 18:42:13,482 - INFO - Std_result_all_test: [0. 0. 0. 0. 0. 0. 0. 0.]
+2023-12-16 18:42:44,227 - INFO - Accuracy_result_all_test: [0.42857142857142855, 0.2146118721461187, 0.5701754385964912, 0.34328358208955223, 0.1749271137026239, 0.5363636363636364, 0.2987012987012987, 0.5652173913043478]
+2023-12-16 18:42:44,228 - INFO - Bwt_whole: [-0.13220433462385164]
+2023-12-16 18:42:44,228 - INFO - Fwt_whole: [0.08760269402709013]
+2023-12-16 18:42:44,228 - INFO - Avg_bwt_whole: -0.13220433462385164
+2023-12-16 18:42:44,228 - INFO - Avg_fwt_whole: 0.08760269402709013
+2023-12-16 18:42:52,406 - INFO - Adding head 'default' with config {'head_type': 'masked_lm', 'vocab_size': 30522, 'embedding_size': 768, 'layers': 2, 'activation_function': 'gelu', 'layer_norm': True, 'bias': True, 'shift_labels': False, 'label2id': None}.
+2023-12-16 18:42:52,898 - INFO - Adding adapter 'ia3_adapter'.
+2023-12-16 18:42:52,902 - INFO - Could not identify valid prediction head(s) from setup 'Stack[ia3_adapter]'.
+2023-12-16 18:42:52,922 - INFO - Current relation: ['person countries of residence', 'organization top members employees', 'organization member of', 'person origin', 'person title', 'organization country of headquarters']
+2023-12-16 18:43:55,859 - INFO - Train Simple Finished!
+2023-12-16 18:45:21,929 - INFO - 600
+2023-12-16 18:45:21,929 - INFO - 1958
+2023-12-16 18:50:19,136 - INFO - Train First Finished!
+2023-12-16 18:50:37,454 - INFO - Length seen relation: 6
+2023-12-16 18:50:37,455 - INFO - Train data memory: 6
+2023-12-16 18:50:47,856 - INFO - Train Memory Finished!
+2023-12-16 18:50:47,861 - INFO - 518
+2023-12-16 18:50:47,861 - INFO - 518
+2023-12-16 18:50:47,861 - INFO - ------------------------------------------------------------Evaluating------------------------------------------------------------
+2023-12-16 18:51:02,734 - INFO - Restart Num 2
+2023-12-16 18:51:02,735 - INFO - Task--1:
+2023-12-16 18:51:02,735 - INFO - Current test acc: 0.7760617760617761
+2023-12-16 18:51:02,735 - INFO - History test acc: 0.7760617760617761
+2023-12-16 18:51:02,735 - INFO - Accuracy_test_current: [0.7760617760617761]
+2023-12-16 18:51:02,735 - INFO - Accuracy_test_total: [0.7760617760617761]
+2023-12-16 18:51:10,216 - INFO - Accuracy_per_task_current_test: [0.7760617760617761]
+2023-12-16 18:51:10,335 - INFO - Current relation: ['person stateorprovinces of residence', 'person date of death', 'organization number of employees members', 'person alternate names', 'person spouse']
+2023-12-16 18:51:19,434 - INFO - Train Simple Finished!
+2023-12-16 18:51:25,024 - INFO - 25
+2023-12-16 18:51:25,024 - INFO - 25
+2023-12-16 18:51:39,090 - INFO - Train First Finished!
+2023-12-16 18:51:42,641 - INFO - Length seen relation: 11
+2023-12-16 18:51:42,641 - INFO - Train data memory: 11
+2023-12-16 18:51:54,892 - INFO - Train Memory Finished!
+2023-12-16 18:51:54,892 - INFO - 231
+2023-12-16 18:51:54,892 - INFO - 749
+2023-12-16 18:51:54,893 - INFO - ------------------------------------------------------------Evaluating------------------------------------------------------------
+2023-12-16 18:52:08,831 - INFO - Restart Num 2
+2023-12-16 18:52:08,831 - INFO - Task--2:
+2023-12-16 18:52:08,831 - INFO - Current test acc: 0.41125541125541126
+2023-12-16 18:52:08,831 - INFO - History test acc: 0.6475300400534045
+2023-12-16 18:52:08,831 - INFO - Accuracy_test_current: [0.7760617760617761, 0.41125541125541126]
+2023-12-16 18:52:08,831 - INFO - Accuracy_test_total: [0.7760617760617761, 0.6475300400534045]
+2023-12-16 18:52:19,645 - INFO - Accuracy_per_task_current_test: [0.752895752895753, 0.41125541125541126]
+2023-12-16 18:52:19,830 - INFO - Current relation: ['person date of birth', 'person stateorprovince of birth', 'person parents', 'person employee of', 'person stateorprovince of death']
+2023-12-16 18:52:29,746 - INFO - Train Simple Finished!
+2023-12-16 18:52:36,217 - INFO - 25
+2023-12-16 18:52:36,217 - INFO - 25
+2023-12-16 18:52:50,628 - INFO - Train First Finished!
+2023-12-16 18:52:54,118 - INFO - Length seen relation: 16
+2023-12-16 18:52:54,118 - INFO - Train data memory: 16
+2023-12-16 18:53:10,135 - INFO - Train Memory Finished!
+2023-12-16 18:53:10,135 - INFO - 219
+2023-12-16 18:53:10,135 - INFO - 968
+2023-12-16 18:53:10,135 - INFO - ------------------------------------------------------------Evaluating------------------------------------------------------------
+2023-12-16 18:53:26,862 - INFO - Restart Num 2
+2023-12-16 18:53:26,862 - INFO - Task--3:
+2023-12-16 18:53:26,862 - INFO - Current test acc: 0.5525114155251142
+2023-12-16 18:53:26,863 - INFO - History test acc: 0.5506198347107438
+2023-12-16 18:53:26,863 - INFO - Accuracy_test_current: [0.7760617760617761, 0.41125541125541126, 0.5525114155251142]
+2023-12-16 18:53:26,863 - INFO - Accuracy_test_total: [0.7760617760617761, 0.6475300400534045, 0.5506198347107438]
+2023-12-16 18:53:40,838 - INFO - Accuracy_per_task_current_test: [0.6891891891891891, 0.23809523809523808, 0.5525114155251142]
+2023-12-16 18:53:41,038 - INFO - Current relation: ['person cities of residence', 'person schools attended', 'person country of death', 'person children', 'person charges']
+2023-12-16 18:53:53,471 - INFO - Train Simple Finished!
+2023-12-16 18:54:01,272 - INFO - 25
+2023-12-16 18:54:01,272 - INFO - 25
+2023-12-16 18:54:16,019 - INFO - Train First Finished!
+2023-12-16 18:54:19,567 - INFO - Length seen relation: 21
+2023-12-16 18:54:19,567 - INFO - Train data memory: 21
+2023-12-16 18:54:41,223 - INFO - Train Memory Finished!
+2023-12-16 18:54:41,224 - INFO - 276
+2023-12-16 18:54:41,224 - INFO - 1244
+2023-12-16 18:54:41,224 - INFO - ------------------------------------------------------------Evaluating------------------------------------------------------------
+2023-12-16 18:55:02,523 - INFO - Restart Num 2
+2023-12-16 18:55:02,523 - INFO - Task--4:
+2023-12-16 18:55:02,523 - INFO - Current test acc: 0.6413043478260869
+2023-12-16 18:55:02,523 - INFO - History test acc: 0.4927652733118971
+2023-12-16 18:55:02,523 - INFO - Accuracy_test_current: [0.7760617760617761, 0.41125541125541126, 0.5525114155251142, 0.6413043478260869]
+2023-12-16 18:55:02,523 - INFO - Accuracy_test_total: [0.7760617760617761, 0.6475300400534045, 0.5506198347107438, 0.4927652733118971]
+2023-12-16 18:55:20,518 - INFO - Accuracy_per_task_current_test: [0.5501930501930502, 0.2987012987012987, 0.3744292237442922, 0.6413043478260869]
+2023-12-16 18:55:20,703 - INFO - Current relation: ['organization subsidiaries', 'organization parents', 'organization alternate names', 'organization city of headquarters', 'person siblings']
+2023-12-16 18:55:34,704 - INFO - Train Simple Finished!
+2023-12-16 18:55:43,685 - INFO - 25
+2023-12-16 18:55:43,685 - INFO - 25
+2023-12-16 18:55:59,106 - INFO - Train First Finished!
+2023-12-16 18:56:02,437 - INFO - Length seen relation: 26
+2023-12-16 18:56:02,438 - INFO - Train data memory: 26
+2023-12-16 18:56:27,125 - INFO - Train Memory Finished!
+2023-12-16 18:56:27,126 - INFO - 343
+2023-12-16 18:56:27,126 - INFO - 1587
+2023-12-16 18:56:27,126 - INFO - ------------------------------------------------------------Evaluating------------------------------------------------------------
+2023-12-16 18:56:53,986 - INFO - Restart Num 2
+2023-12-16 18:56:53,987 - INFO - Task--5:
+2023-12-16 18:56:53,987 - INFO - Current test acc: 0.37317784256559766
+2023-12-16 18:56:53,987 - INFO - History test acc: 0.43289224952741023
+2023-12-16 18:56:53,987 - INFO - Accuracy_test_current: [0.7760617760617761, 0.41125541125541126, 0.5525114155251142, 0.6413043478260869, 0.37317784256559766]
+2023-12-16 18:56:53,987 - INFO - Accuracy_test_total: [0.7760617760617761, 0.6475300400534045, 0.5506198347107438, 0.4927652733118971, 0.43289224952741023]
+2023-12-16 18:57:16,886 - INFO - Accuracy_per_task_current_test: [0.4749034749034749, 0.2597402597402597, 0.3972602739726027, 0.6014492753623188, 0.37317784256559766]
+2023-12-16 18:57:17,082 - INFO - Current relation: ['person country of birth', 'organization website', 'organization shareholders', 'organization dissolved', 'organization founded by']
+2023-12-16 18:57:29,266 - INFO - Train Simple Finished!
+2023-12-16 18:57:39,549 - INFO - 25
+2023-12-16 18:57:39,549 - INFO - 25
+2023-12-16 18:57:53,825 - INFO - Train First Finished!
+2023-12-16 18:57:57,362 - INFO - Length seen relation: 31
+2023-12-16 18:57:57,363 - INFO - Train data memory: 31
+2023-12-16 18:58:27,968 - INFO - Train Memory Finished!
+2023-12-16 18:58:27,968 - INFO - 114
+2023-12-16 18:58:27,968 - INFO - 1701
+2023-12-16 18:58:27,968 - INFO - ------------------------------------------------------------Evaluating------------------------------------------------------------
+2023-12-16 18:58:53,170 - INFO - Restart Num 2
+2023-12-16 18:58:53,170 - INFO - Task--6:
+2023-12-16 18:58:53,170 - INFO - Current test acc: 0.42105263157894735
+2023-12-16 18:58:53,170 - INFO - History test acc: 0.38154027042915933
+2023-12-16 18:58:53,170 - INFO - Accuracy_test_current: [0.7760617760617761, 0.41125541125541126, 0.5525114155251142, 0.6413043478260869, 0.37317784256559766, 0.42105263157894735]
+2023-12-16 18:58:53,170 - INFO - Accuracy_test_total: [0.7760617760617761, 0.6475300400534045, 0.5506198347107438, 0.4927652733118971, 0.43289224952741023, 0.38154027042915933]
+2023-12-16 18:59:17,779 - INFO - Accuracy_per_task_current_test: [0.42857142857142855, 0.30303030303030304, 0.2876712328767123, 0.6123188405797102, 0.22448979591836735, 0.42105263157894735]
+2023-12-16 18:59:17,965 - INFO - Current relation: ['person cause of death', 'organization political religious affiliation', 'organization stateorprovince of headquarters', 'person other family', 'person city of death']
+2023-12-16 18:59:32,154 - INFO - Train Simple Finished!
+2023-12-16 18:59:43,712 - INFO - 25
+2023-12-16 18:59:43,713 - INFO - 25
+2023-12-16 18:59:58,476 - INFO - Train First Finished!
+2023-12-16 19:00:01,897 - INFO - Length seen relation: 36
+2023-12-16 19:00:01,897 - INFO - Train data memory: 36
+2023-12-16 19:00:38,272 - INFO - Train Memory Finished!
+2023-12-16 19:00:38,273 - INFO - 201
+2023-12-16 19:00:38,273 - INFO - 1902
+2023-12-16 19:00:38,273 - INFO - ------------------------------------------------------------Evaluating------------------------------------------------------------
+2023-12-16 19:01:08,085 - INFO - Restart Num 2
+2023-12-16 19:01:08,085 - INFO - Task--7:
+2023-12-16 19:01:08,085 - INFO - Current test acc: 0.2935323383084577
+2023-12-16 19:01:08,086 - INFO - History test acc: 0.34647739221871715
+2023-12-16 19:01:08,086 - INFO - Accuracy_test_current: [0.7760617760617761, 0.41125541125541126, 0.5525114155251142, 0.6413043478260869, 0.37317784256559766, 0.42105263157894735, 0.2935323383084577]
+2023-12-16 19:01:08,086 - INFO - Accuracy_test_total: [0.7760617760617761, 0.6475300400534045, 0.5506198347107438, 0.4927652733118971, 0.43289224952741023, 0.38154027042915933, 0.34647739221871715]
+2023-12-16 19:01:35,838 - INFO - Accuracy_per_task_current_test: [0.3803088803088803, 0.23809523809523808, 0.2374429223744292, 0.5942028985507246, 0.24198250728862974, 0.4298245614035088, 0.2935323383084577]
+2023-12-16 19:01:36,053 - INFO - Current relation: ['organization founded', 'person age', 'person city of birth', 'organization members', 'person religion']
+2023-12-16 19:01:51,619 - INFO - Train Simple Finished!
+2023-12-16 19:02:04,576 - INFO - 25
+2023-12-16 19:02:04,576 - INFO - 25
+2023-12-16 19:02:19,979 - INFO - Train First Finished!
+2023-12-16 19:02:23,570 - INFO - Length seen relation: 41
+2023-12-16 19:02:23,570 - INFO - Train data memory: 41
+2023-12-16 19:03:03,588 - INFO - Train Memory Finished!
+2023-12-16 19:03:03,589 - INFO - 220
+2023-12-16 19:03:03,589 - INFO - 2122
+2023-12-16 19:03:03,589 - INFO - ------------------------------------------------------------Evaluating------------------------------------------------------------
+2023-12-16 19:03:36,075 - INFO - Restart Num 2
+2023-12-16 19:03:36,075 - INFO - Task--8:
+2023-12-16 19:03:36,075 - INFO - Current test acc: 0.6636363636363637
+2023-12-16 19:03:36,075 - INFO - History test acc: 0.3770028275212064
+2023-12-16 19:03:36,075 - INFO - Accuracy_test_current: [0.7760617760617761, 0.41125541125541126, 0.5525114155251142, 0.6413043478260869, 0.37317784256559766, 0.42105263157894735, 0.2935323383084577, 0.6636363636363637]
+2023-12-16 19:03:36,075 - INFO - Accuracy_test_total: [0.7760617760617761, 0.6475300400534045, 0.5506198347107438, 0.4927652733118971, 0.43289224952741023, 0.38154027042915933, 0.34647739221871715, 0.3770028275212064]
+2023-12-16 19:04:07,051 - INFO - Accuracy_per_task_current_test: [0.40540540540540543, 0.2554112554112554, 0.2237442922374429, 0.5543478260869565, 0.23615160349854228, 0.5, 0.22388059701492538, 0.6636363636363637]
+2023-12-16 19:04:07,235 - INFO - Result_whole_test: [array([86.29343629, 64.4504749 , 51.58636898, 49.80988593, 37.34767025,
+       42.78637771, 36.61971831, 37.98303487]), array([77.60617761, 64.75300401, 55.06198347, 49.27652733, 43.28922495,
+       38.15402704, 34.64773922, 37.70028275])]
+2023-12-16 19:04:07,236 - INFO - Avg_result_cur_test: [0.81949807 0.42252268 0.49993992 0.60672183 0.26530612 0.54007177
+ 0.32641985 0.61442688]
+2023-12-16 19:04:07,236 - INFO - Avg_result_all_test: [81.94980695 64.60173945 53.32417622 49.54320663 40.3184476  40.47020238
+ 35.63372877 37.84165881]
+2023-12-16 19:04:07,236 - INFO - Std_result_all_test: [4.34362934 0.15126455 1.73780725 0.2666793  2.97077735 2.31617533
+ 0.98598954 0.14137606]
+2023-12-16 19:04:38,116 - INFO - Accuracy_result_all_test: [0.40540540540540543, 0.2554112554112554, 0.2237442922374429, 0.5543478260869565, 0.23615160349854228, 0.5, 0.22388059701492538, 0.6636363636363637]
+2023-12-16 19:04:38,117 - INFO - Bwt_whole: [-0.13220433462385164, -0.152850683352409]
+2023-12-16 19:04:38,117 - INFO - Fwt_whole: [0.08760269402709013, 0.05876680881509873]
+2023-12-16 19:04:38,117 - INFO - Avg_bwt_whole: -0.14252750898813032
+2023-12-16 19:04:38,117 - INFO - Avg_fwt_whole: 0.07318475142109443
+2023-12-16 19:04:45,846 - INFO - Adding head 'default' with config {'head_type': 'masked_lm', 'vocab_size': 30522, 'embedding_size': 768, 'layers': 2, 'activation_function': 'gelu', 'layer_norm': True, 'bias': True, 'shift_labels': False, 'label2id': None}.
+2023-12-16 19:04:46,390 - INFO - Adding adapter 'ia3_adapter'.
+2023-12-16 19:04:46,394 - INFO - Could not identify valid prediction head(s) from setup 'Stack[ia3_adapter]'.
+2023-12-16 19:04:46,414 - INFO - Current relation: ['person countries of residence', 'organization top members employees', 'organization member of', 'person origin', 'person title', 'organization country of headquarters']
+2023-12-16 19:05:48,577 - INFO - Train Simple Finished!
+2023-12-16 19:07:15,770 - INFO - 600
+2023-12-16 19:07:15,770 - INFO - 610
+2023-12-16 19:12:12,806 - INFO - Train First Finished!
+2023-12-16 19:12:31,793 - INFO - Length seen relation: 6
+2023-12-16 19:12:31,794 - INFO - Train data memory: 6
+2023-12-16 19:12:42,315 - INFO - Train Memory Finished!
+2023-12-16 19:12:42,319 - INFO - 518
+2023-12-16 19:12:42,319 - INFO - 518
+2023-12-16 19:12:42,319 - INFO - ------------------------------------------------------------Evaluating------------------------------------------------------------
+2023-12-16 19:12:57,536 - INFO - Restart Num 3
+2023-12-16 19:12:57,536 - INFO - Task--1:
+2023-12-16 19:12:57,536 - INFO - Current test acc: 0.8243243243243243
+2023-12-16 19:12:57,536 - INFO - History test acc: 0.8243243243243243
+2023-12-16 19:12:57,536 - INFO - Accuracy_test_current: [0.8243243243243243]
+2023-12-16 19:12:57,536 - INFO - Accuracy_test_total: [0.8243243243243243]
+2023-12-16 19:13:05,198 - INFO - Accuracy_per_task_current_test: [0.8243243243243243]
+2023-12-16 19:13:05,318 - INFO - Current relation: ['person cities of residence', 'person schools attended', 'person country of death', 'person children', 'person charges']
+2023-12-16 19:13:16,113 - INFO - Train Simple Finished!
+2023-12-16 19:13:21,634 - INFO - 25
+2023-12-16 19:13:21,635 - INFO - 25
+2023-12-16 19:13:35,555 - INFO - Train First Finished!
+2023-12-16 19:13:39,193 - INFO - Length seen relation: 11
+2023-12-16 19:13:39,193 - INFO - Train data memory: 11
+2023-12-16 19:13:51,701 - INFO - Train Memory Finished!
+2023-12-16 19:13:51,702 - INFO - 276
+2023-12-16 19:13:51,702 - INFO - 794
+2023-12-16 19:13:51,702 - INFO - ------------------------------------------------------------Evaluating------------------------------------------------------------
+2023-12-16 19:14:07,361 - INFO - Restart Num 3
+2023-12-16 19:14:07,362 - INFO - Task--2:
+2023-12-16 19:14:07,362 - INFO - Current test acc: 0.5253623188405797
+2023-12-16 19:14:07,362 - INFO - History test acc: 0.6372795969773299
+2023-12-16 19:14:07,362 - INFO - Accuracy_test_current: [0.8243243243243243, 0.5253623188405797]
+2023-12-16 19:14:07,362 - INFO - Accuracy_test_total: [0.8243243243243243, 0.6372795969773299]
+2023-12-16 19:14:19,089 - INFO - Accuracy_per_task_current_test: [0.696911196911197, 0.5253623188405797]
+2023-12-16 19:14:19,274 - INFO - Current relation: ['person date of birth', 'person stateorprovince of birth', 'person parents', 'person employee of', 'person stateorprovince of death']
+2023-12-16 19:14:29,210 - INFO - Train Simple Finished!
+2023-12-16 19:14:35,730 - INFO - 25
+2023-12-16 19:14:35,730 - INFO - 25
+2023-12-16 19:14:49,045 - INFO - Train First Finished!
+2023-12-16 19:14:52,627 - INFO - Length seen relation: 16
+2023-12-16 19:14:52,627 - INFO - Train data memory: 16
+2023-12-16 19:15:08,638 - INFO - Train Memory Finished!
+2023-12-16 19:15:08,638 - INFO - 219
+2023-12-16 19:15:08,638 - INFO - 1013
+2023-12-16 19:15:08,638 - INFO - ------------------------------------------------------------Evaluating------------------------------------------------------------
+2023-12-16 19:15:26,321 - INFO - Restart Num 3
+2023-12-16 19:15:26,322 - INFO - Task--3:
+2023-12-16 19:15:26,322 - INFO - Current test acc: 0.5799086757990868
+2023-12-16 19:15:26,322 - INFO - History test acc: 0.5488647581441264
+2023-12-16 19:15:26,322 - INFO - Accuracy_test_current: [0.8243243243243243, 0.5253623188405797, 0.5799086757990868]
+2023-12-16 19:15:26,322 - INFO - Accuracy_test_total: [0.8243243243243243, 0.6372795969773299, 0.5488647581441264]
+2023-12-16 19:15:41,095 - INFO - Accuracy_per_task_current_test: [0.6177606177606177, 0.39492753623188404, 0.5799086757990868]
+2023-12-16 19:15:41,283 - INFO - Current relation: ['organization founded', 'person age', 'person city of birth', 'organization members', 'person religion']
+2023-12-16 19:15:52,445 - INFO - Train Simple Finished!
+2023-12-16 19:16:00,215 - INFO - 25
+2023-12-16 19:16:00,216 - INFO - 25
+2023-12-16 19:16:14,298 - INFO - Train First Finished!
+2023-12-16 19:16:17,750 - INFO - Length seen relation: 21
+2023-12-16 19:16:17,750 - INFO - Train data memory: 21
+2023-12-16 19:16:40,075 - INFO - Train Memory Finished!
+2023-12-16 19:16:40,076 - INFO - 220
+2023-12-16 19:16:40,076 - INFO - 1233
+2023-12-16 19:16:40,076 - INFO - ------------------------------------------------------------Evaluating------------------------------------------------------------
+2023-12-16 19:17:00,954 - INFO - Restart Num 3
+2023-12-16 19:17:00,955 - INFO - Task--4:
+2023-12-16 19:17:00,955 - INFO - Current test acc: 0.7
+2023-12-16 19:17:00,955 - INFO - History test acc: 0.5401459854014599
+2023-12-16 19:17:00,955 - INFO - Accuracy_test_current: [0.8243243243243243, 0.5253623188405797, 0.5799086757990868, 0.7]
+2023-12-16 19:17:00,955 - INFO - Accuracy_test_total: [0.8243243243243243, 0.6372795969773299, 0.5488647581441264, 0.5401459854014599]
+2023-12-16 19:17:19,071 - INFO - Accuracy_per_task_current_test: [0.6023166023166023, 0.40942028985507245, 0.3972602739726027, 0.7]
+2023-12-16 19:17:19,253 - INFO - Current relation: ['person cause of death', 'organization political religious affiliation', 'organization stateorprovince of headquarters', 'person other family', 'person city of death']
+2023-12-16 19:17:31,333 - INFO - Train Simple Finished!
+2023-12-16 19:17:40,418 - INFO - 25
+2023-12-16 19:17:40,418 - INFO - 25
+2023-12-16 19:17:56,095 - INFO - Train First Finished!
+2023-12-16 19:17:59,763 - INFO - Length seen relation: 26
+2023-12-16 19:17:59,763 - INFO - Train data memory: 26
+2023-12-16 19:18:26,414 - INFO - Train Memory Finished!
+2023-12-16 19:18:26,415 - INFO - 201
+2023-12-16 19:18:26,415 - INFO - 1434
+2023-12-16 19:18:26,415 - INFO - ------------------------------------------------------------Evaluating------------------------------------------------------------
+2023-12-16 19:18:49,635 - INFO - Restart Num 3
+2023-12-16 19:18:49,635 - INFO - Task--5:
+2023-12-16 19:18:49,635 - INFO - Current test acc: 0.40298507462686567
+2023-12-16 19:18:49,635 - INFO - History test acc: 0.4860529986052999
+2023-12-16 19:18:49,635 - INFO - Accuracy_test_current: [0.8243243243243243, 0.5253623188405797, 0.5799086757990868, 0.7, 0.40298507462686567]
+2023-12-16 19:18:49,635 - INFO - Accuracy_test_total: [0.8243243243243243, 0.6372795969773299, 0.5488647581441264, 0.5401459854014599, 0.4860529986052999]
+2023-12-16 19:19:10,923 - INFO - Accuracy_per_task_current_test: [0.6003861003861004, 0.40942028985507245, 0.3333333333333333, 0.5409090909090909, 0.40298507462686567]
+2023-12-16 19:19:11,111 - INFO - Current relation: ['person stateorprovinces of residence', 'person date of death', 'organization number of employees members', 'person alternate names', 'person spouse']
+2023-12-16 19:19:24,828 - INFO - Train Simple Finished!
+2023-12-16 19:19:35,103 - INFO - 25
+2023-12-16 19:19:35,103 - INFO - 25
+2023-12-16 19:19:49,703 - INFO - Train First Finished!
+2023-12-16 19:19:53,234 - INFO - Length seen relation: 31
+2023-12-16 19:19:53,234 - INFO - Train data memory: 31
+2023-12-16 19:20:24,327 - INFO - Train Memory Finished!
+2023-12-16 19:20:24,328 - INFO - 231
+2023-12-16 19:20:24,328 - INFO - 1665
+2023-12-16 19:20:24,328 - INFO - ------------------------------------------------------------Evaluating------------------------------------------------------------
+2023-12-16 19:20:51,356 - INFO - Restart Num 3
+2023-12-16 19:20:51,357 - INFO - Task--6:
+2023-12-16 19:20:51,357 - INFO - Current test acc: 0.2597402597402597
+2023-12-16 19:20:51,357 - INFO - History test acc: 0.4276276276276276
+2023-12-16 19:20:51,357 - INFO - Accuracy_test_current: [0.8243243243243243, 0.5253623188405797, 0.5799086757990868, 0.7, 0.40298507462686567, 0.2597402597402597]
+2023-12-16 19:20:51,357 - INFO - Accuracy_test_total: [0.8243243243243243, 0.6372795969773299, 0.5488647581441264, 0.5401459854014599, 0.4860529986052999, 0.4276276276276276]
+2023-12-16 19:21:15,963 - INFO - Accuracy_per_task_current_test: [0.5521235521235521, 0.40942028985507245, 0.2876712328767123, 0.5181818181818182, 0.3781094527363184, 0.2597402597402597]
+2023-12-16 19:21:16,339 - INFO - Current relation: ['person country of birth', 'organization website', 'organization shareholders', 'organization dissolved', 'organization founded by']
+2023-12-16 19:21:29,459 - INFO - Train Simple Finished!
+2023-12-16 19:21:41,200 - INFO - 25
+2023-12-16 19:21:41,201 - INFO - 25
+2023-12-16 19:21:56,701 - INFO - Train First Finished!
+2023-12-16 19:22:00,211 - INFO - Length seen relation: 36
+2023-12-16 19:22:00,212 - INFO - Train data memory: 36
+2023-12-16 19:22:37,856 - INFO - Train Memory Finished!
+2023-12-16 19:22:37,857 - INFO - 114
+2023-12-16 19:22:37,857 - INFO - 1779
+2023-12-16 19:22:37,857 - INFO - ------------------------------------------------------------Evaluating------------------------------------------------------------
+2023-12-16 19:23:04,830 - INFO - Restart Num 3
+2023-12-16 19:23:04,831 - INFO - Task--7:
+2023-12-16 19:23:04,831 - INFO - Current test acc: 0.6754385964912281
+2023-12-16 19:23:04,831 - INFO - History test acc: 0.3850477796514896
+2023-12-16 19:23:04,831 - INFO - Accuracy_test_current: [0.8243243243243243, 0.5253623188405797, 0.5799086757990868, 0.7, 0.40298507462686567, 0.2597402597402597, 0.6754385964912281]
+2023-12-16 19:23:04,831 - INFO - Accuracy_test_total: [0.8243243243243243, 0.6372795969773299, 0.5488647581441264, 0.5401459854014599, 0.4860529986052999, 0.4276276276276276, 0.3850477796514896]
+2023-12-16 19:23:31,270 - INFO - Accuracy_per_task_current_test: [0.4189189189189189, 0.42391304347826086, 0.2100456621004566, 0.5227272727272727, 0.24875621890547264, 0.2727272727272727, 0.6754385964912281]
+2023-12-16 19:23:31,449 - INFO - Current relation: ['organization subsidiaries', 'organization parents', 'organization alternate names', 'organization city of headquarters', 'person siblings']
+2023-12-16 19:23:49,082 - INFO - Train Simple Finished!
+2023-12-16 19:24:01,966 - INFO - 25
+2023-12-16 19:24:01,967 - INFO - 25
+2023-12-16 19:24:17,599 - INFO - Train First Finished!
+2023-12-16 19:24:21,044 - INFO - Length seen relation: 41
+2023-12-16 19:24:21,045 - INFO - Train data memory: 41
+2023-12-16 19:25:04,326 - INFO - Train Memory Finished!
+2023-12-16 19:25:04,327 - INFO - 343
+2023-12-16 19:25:04,327 - INFO - 2122
+2023-12-16 19:25:04,327 - INFO - ------------------------------------------------------------Evaluating------------------------------------------------------------
+2023-12-16 19:25:39,875 - INFO - Restart Num 3
+2023-12-16 19:25:39,876 - INFO - Task--8:
+2023-12-16 19:25:39,876 - INFO - Current test acc: 0.2594752186588921
+2023-12-16 19:25:39,876 - INFO - History test acc: 0.3581526861451461
+2023-12-16 19:25:39,876 - INFO - Accuracy_test_current: [0.8243243243243243, 0.5253623188405797, 0.5799086757990868, 0.7, 0.40298507462686567, 0.2597402597402597, 0.6754385964912281, 0.2594752186588921]
+2023-12-16 19:25:39,876 - INFO - Accuracy_test_total: [0.8243243243243243, 0.6372795969773299, 0.5488647581441264, 0.5401459854014599, 0.4860529986052999, 0.4276276276276276, 0.3850477796514896, 0.3581526861451461]
+2023-12-16 19:26:11,721 - INFO - Accuracy_per_task_current_test: [0.4247104247104247, 0.39855072463768115, 0.1963470319634703, 0.45454545454545453, 0.26865671641791045, 0.31601731601731603, 0.6228070175438597, 0.2594752186588921]
+2023-12-16 19:26:11,904 - INFO - Result_whole_test: [array([86.29343629, 64.4504749 , 51.58636898, 49.80988593, 37.34767025,
+       42.78637771, 36.61971831, 37.98303487]), array([77.60617761, 64.75300401, 55.06198347, 49.27652733, 43.28922495,
+       38.15402704, 34.64773922, 37.70028275]), array([82.43243243, 63.7279597 , 54.88647581, 54.01459854, 48.60529986,
+       42.76276276, 38.50477797, 35.81526861])]
+2023-12-16 19:26:11,904 - INFO - Avg_result_cur_test: [0.82110682 0.45680256 0.52659617 0.63781455 0.31119911 0.44662793
+ 0.44275943 0.49610966]
+2023-12-16 19:26:11,904 - INFO - Avg_result_all_test: [82.11068211 64.31047953 53.84494275 51.0336706  43.08073169 41.23438917
+ 36.59074517 37.16619541]
+2023-12-16 19:26:11,904 - INFO - Std_result_all_test: [3.55384846 0.43002169 1.59865931 2.11905111 4.59827201 2.17816629
+ 1.57476274 0.96219873]
+2023-12-16 19:26:43,787 - INFO - Accuracy_result_all_test: [0.4247104247104247, 0.39855072463768115, 0.1963470319634703, 0.45454545454545453, 0.26865671641791045, 0.31601731601731603, 0.6228070175438597, 0.2594752186588921]
+2023-12-16 19:26:43,787 - INFO - Bwt_whole: [-0.13220433462385164, -0.152850683352409, -0.18373208056946105]
+2023-12-16 19:26:43,787 - INFO - Fwt_whole: [0.08760269402709013, 0.05876680881509873, 0.03411768031256891]
+2023-12-16 19:26:43,787 - INFO - Avg_bwt_whole: -0.15626236618190723
+2023-12-16 19:26:43,787 - INFO - Avg_fwt_whole: 0.06016239438491925
+2023-12-16 19:26:51,432 - INFO - Adding head 'default' with config {'head_type': 'masked_lm', 'vocab_size': 30522, 'embedding_size': 768, 'layers': 2, 'activation_function': 'gelu', 'layer_norm': True, 'bias': True, 'shift_labels': False, 'label2id': None}.
+2023-12-16 19:26:51,965 - INFO - Adding adapter 'ia3_adapter'.
+2023-12-16 19:26:51,968 - INFO - Could not identify valid prediction head(s) from setup 'Stack[ia3_adapter]'.
+2023-12-16 19:26:51,989 - INFO - Current relation: ['person countries of residence', 'organization top members employees', 'organization member of', 'person origin', 'person title', 'organization country of headquarters']
+2023-12-16 19:28:01,561 - INFO - Train Simple Finished!
+2023-12-16 19:29:30,712 - INFO - 600
+2023-12-16 19:29:30,712 - INFO - 1982
+2023-12-16 19:34:45,908 - INFO - Train First Finished!
+2023-12-16 19:35:04,694 - INFO - Length seen relation: 6
+2023-12-16 19:35:04,695 - INFO - Train data memory: 6
+2023-12-16 19:35:15,254 - INFO - Train Memory Finished!
+2023-12-16 19:35:15,258 - INFO - 518
+2023-12-16 19:35:15,258 - INFO - 518
+2023-12-16 19:35:15,258 - INFO - ------------------------------------------------------------Evaluating------------------------------------------------------------
+2023-12-16 19:35:30,428 - INFO - Restart Num 4
+2023-12-16 19:35:30,429 - INFO - Task--1:
+2023-12-16 19:35:30,429 - INFO - Current test acc: 0.8108108108108109
+2023-12-16 19:35:30,429 - INFO - History test acc: 0.8108108108108109
+2023-12-16 19:35:30,429 - INFO - Accuracy_test_current: [0.8108108108108109]
+2023-12-16 19:35:30,429 - INFO - Accuracy_test_total: [0.8108108108108109]
+2023-12-16 19:35:38,001 - INFO - Accuracy_per_task_current_test: [0.8108108108108109]
+2023-12-16 19:35:38,124 - INFO - Current relation: ['person country of birth', 'organization website', 'organization shareholders', 'organization dissolved', 'organization founded by']
+2023-12-16 19:35:45,670 - INFO - Train Simple Finished!
+2023-12-16 19:35:55,199 - INFO - 25
+2023-12-16 19:35:55,199 - INFO - 25
+2023-12-16 19:36:08,979 - INFO - Train First Finished!
+2023-12-16 19:36:12,507 - INFO - Length seen relation: 11
+2023-12-16 19:36:12,507 - INFO - Train data memory: 11
+2023-12-16 19:36:24,870 - INFO - Train Memory Finished!
+2023-12-16 19:36:24,871 - INFO - 114
+2023-12-16 19:36:24,871 - INFO - 632
+2023-12-16 19:36:24,871 - INFO - ------------------------------------------------------------Evaluating------------------------------------------------------------
+2023-12-16 19:36:35,738 - INFO - Restart Num 4
+2023-12-16 19:36:35,738 - INFO - Task--2:
+2023-12-16 19:36:35,738 - INFO - Current test acc: 0.3333333333333333
+2023-12-16 19:36:35,738 - INFO - History test acc: 0.6313291139240507
+2023-12-16 19:36:35,738 - INFO - Accuracy_test_current: [0.8108108108108109, 0.3333333333333333]
+2023-12-16 19:36:35,738 - INFO - Accuracy_test_total: [0.8108108108108109, 0.6313291139240507]
+2023-12-16 19:36:45,045 - INFO - Accuracy_per_task_current_test: [0.696911196911197, 0.3333333333333333]
+2023-12-16 19:36:45,228 - INFO - Current relation: ['organization founded', 'person age', 'person city of birth', 'organization members', 'person religion']
+2023-12-16 19:36:55,343 - INFO - Train Simple Finished!
+2023-12-16 19:37:01,940 - INFO - 25
+2023-12-16 19:37:01,940 - INFO - 25
+2023-12-16 19:37:16,875 - INFO - Train First Finished!
+2023-12-16 19:37:20,340 - INFO - Length seen relation: 16
+2023-12-16 19:37:20,340 - INFO - Train data memory: 16
+2023-12-16 19:37:37,801 - INFO - Train Memory Finished!
+2023-12-16 19:37:37,802 - INFO - 220
+2023-12-16 19:37:37,802 - INFO - 852
+2023-12-16 19:37:37,802 - INFO - ------------------------------------------------------------Evaluating------------------------------------------------------------
+2023-12-16 19:37:53,464 - INFO - Restart Num 4
+2023-12-16 19:37:53,464 - INFO - Task--3:
+2023-12-16 19:37:53,464 - INFO - Current test acc: 0.6727272727272727
+2023-12-16 19:37:53,464 - INFO - History test acc: 0.5751173708920188
+2023-12-16 19:37:53,464 - INFO - Accuracy_test_current: [0.8108108108108109, 0.3333333333333333, 0.6727272727272727]
+2023-12-16 19:37:53,464 - INFO - Accuracy_test_total: [0.8108108108108109, 0.6313291139240507, 0.5751173708920188]
+2023-12-16 19:38:06,257 - INFO - Accuracy_per_task_current_test: [0.5096525096525096, 0.6842105263157895, 0.6727272727272727]
+2023-12-16 19:38:06,470 - INFO - Current relation: ['person cities of residence', 'person schools attended', 'person country of death', 'person children', 'person charges']
+2023-12-16 19:38:18,634 - INFO - Train Simple Finished!
+2023-12-16 19:38:26,424 - INFO - 25
+2023-12-16 19:38:26,424 - INFO - 25
+2023-12-16 19:38:40,878 - INFO - Train First Finished!
+2023-12-16 19:38:44,376 - INFO - Length seen relation: 21
+2023-12-16 19:38:44,377 - INFO - Train data memory: 21
+2023-12-16 19:39:06,267 - INFO - Train Memory Finished!
+2023-12-16 19:39:06,268 - INFO - 276
+2023-12-16 19:39:06,268 - INFO - 1128
+2023-12-16 19:39:06,268 - INFO - ------------------------------------------------------------Evaluating------------------------------------------------------------
+2023-12-16 19:39:26,658 - INFO - Restart Num 4
+2023-12-16 19:39:26,658 - INFO - Task--4:
+2023-12-16 19:39:26,658 - INFO - Current test acc: 0.6485507246376812
+2023-12-16 19:39:26,658 - INFO - History test acc: 0.574468085106383
+2023-12-16 19:39:26,658 - INFO - Accuracy_test_current: [0.8108108108108109, 0.3333333333333333, 0.6727272727272727, 0.6485507246376812]
+2023-12-16 19:39:26,658 - INFO - Accuracy_test_total: [0.8108108108108109, 0.6313291139240507, 0.5751173708920188, 0.574468085106383]
+2023-12-16 19:39:43,885 - INFO - Accuracy_per_task_current_test: [0.4749034749034749, 0.7894736842105263, 0.6045454545454545, 0.6485507246376812]
+2023-12-16 19:39:44,106 - INFO - Current relation: ['person cause of death', 'organization political religious affiliation', 'organization stateorprovince of headquarters', 'person other family', 'person city of death']
+2023-12-16 19:39:56,608 - INFO - Train Simple Finished!
+2023-12-16 19:40:05,585 - INFO - 25
+2023-12-16 19:40:05,586 - INFO - 25
+2023-12-16 19:40:20,003 - INFO - Train First Finished!
+2023-12-16 19:40:23,504 - INFO - Length seen relation: 26
+2023-12-16 19:40:23,505 - INFO - Train data memory: 26
+2023-12-16 19:40:49,977 - INFO - Train Memory Finished!
+2023-12-16 19:40:49,977 - INFO - 201
+2023-12-16 19:40:49,977 - INFO - 1329
+2023-12-16 19:40:49,977 - INFO - ------------------------------------------------------------Evaluating------------------------------------------------------------
+2023-12-16 19:41:12,020 - INFO - Restart Num 4
+2023-12-16 19:41:12,020 - INFO - Task--5:
+2023-12-16 19:41:12,020 - INFO - Current test acc: 0.31343283582089554
+2023-12-16 19:41:12,020 - INFO - History test acc: 0.5146726862302483
+2023-12-16 19:41:12,020 - INFO - Accuracy_test_current: [0.8108108108108109, 0.3333333333333333, 0.6727272727272727, 0.6485507246376812, 0.31343283582089554]
+2023-12-16 19:41:12,020 - INFO - Accuracy_test_total: [0.8108108108108109, 0.6313291139240507, 0.5751173708920188, 0.574468085106383, 0.5146726862302483]
+2023-12-16 19:41:32,034 - INFO - Accuracy_per_task_current_test: [0.4613899613899614, 0.7631578947368421, 0.6136363636363636, 0.5797101449275363, 0.31343283582089554]
+2023-12-16 19:41:32,217 - INFO - Current relation: ['person date of birth', 'person stateorprovince of birth', 'person parents', 'person employee of', 'person stateorprovince of death']
+2023-12-16 19:41:45,758 - INFO - Train Simple Finished!
+2023-12-16 19:41:55,921 - INFO - 25
+2023-12-16 19:41:55,922 - INFO - 25
+2023-12-16 19:42:11,004 - INFO - Train First Finished!
+2023-12-16 19:42:14,535 - INFO - Length seen relation: 31
+2023-12-16 19:42:14,535 - INFO - Train data memory: 31
+2023-12-16 19:42:44,470 - INFO - Train Memory Finished!
+2023-12-16 19:42:44,471 - INFO - 219
+2023-12-16 19:42:44,471 - INFO - 1548
+2023-12-16 19:42:44,471 - INFO - ------------------------------------------------------------Evaluating------------------------------------------------------------
+2023-12-16 19:43:10,008 - INFO - Restart Num 4
+2023-12-16 19:43:10,008 - INFO - Task--6:
+2023-12-16 19:43:10,008 - INFO - Current test acc: 0.1963470319634703
+2023-12-16 19:43:10,008 - INFO - History test acc: 0.44638242894056845
+2023-12-16 19:43:10,008 - INFO - Accuracy_test_current: [0.8108108108108109, 0.3333333333333333, 0.6727272727272727, 0.6485507246376812, 0.31343283582089554, 0.1963470319634703]
+2023-12-16 19:43:10,008 - INFO - Accuracy_test_total: [0.8108108108108109, 0.6313291139240507, 0.5751173708920188, 0.574468085106383, 0.5146726862302483, 0.44638242894056845]
+2023-12-16 19:43:33,437 - INFO - Accuracy_per_task_current_test: [0.4305019305019305, 0.6403508771929824, 0.5863636363636363, 0.5434782608695652, 0.36318407960199006, 0.1963470319634703]
+2023-12-16 19:43:33,625 - INFO - Current relation: ['organization subsidiaries', 'organization parents', 'organization alternate names', 'organization city of headquarters', 'person siblings']
+2023-12-16 19:43:49,955 - INFO - Train Simple Finished!
+2023-12-16 19:44:01,373 - INFO - 25
+2023-12-16 19:44:01,374 - INFO - 25
+2023-12-16 19:44:16,835 - INFO - Train First Finished!
+2023-12-16 19:44:20,513 - INFO - Length seen relation: 36
+2023-12-16 19:44:20,513 - INFO - Train data memory: 36
+2023-12-16 19:44:57,676 - INFO - Train Memory Finished!
+2023-12-16 19:44:57,676 - INFO - 343
+2023-12-16 19:44:57,676 - INFO - 1891
+2023-12-16 19:44:57,676 - INFO - ------------------------------------------------------------Evaluating------------------------------------------------------------
+2023-12-16 19:45:29,771 - INFO - Restart Num 4
+2023-12-16 19:45:29,771 - INFO - Task--7:
+2023-12-16 19:45:29,771 - INFO - Current test acc: 0.3206997084548105
+2023-12-16 19:45:29,771 - INFO - History test acc: 0.41723955579058697
+2023-12-16 19:45:29,771 - INFO - Accuracy_test_current: [0.8108108108108109, 0.3333333333333333, 0.6727272727272727, 0.6485507246376812, 0.31343283582089554, 0.1963470319634703, 0.3206997084548105]
+2023-12-16 19:45:29,771 - INFO - Accuracy_test_total: [0.8108108108108109, 0.6313291139240507, 0.5751173708920188, 0.574468085106383, 0.5146726862302483, 0.44638242894056845, 0.41723955579058697]
+2023-12-16 19:45:58,144 - INFO - Accuracy_per_task_current_test: [0.44015444015444016, 0.6140350877192983, 0.5136363636363637, 0.5181159420289855, 0.4228855721393035, 0.182648401826484, 0.3206997084548105]
+2023-12-16 19:45:58,572 - INFO - Current relation: ['person stateorprovinces of residence', 'person date of death', 'organization number of employees members', 'person alternate names', 'person spouse']
+2023-12-16 19:46:14,417 - INFO - Train Simple Finished!
+2023-12-16 19:46:27,097 - INFO - 25
+2023-12-16 19:46:27,097 - INFO - 25
+2023-12-16 19:46:44,709 - INFO - Train First Finished!
+2023-12-16 19:46:48,108 - INFO - Length seen relation: 41
+2023-12-16 19:46:48,109 - INFO - Train data memory: 41
+2023-12-16 19:47:30,704 - INFO - Train Memory Finished!
+2023-12-16 19:47:30,704 - INFO - 231
+2023-12-16 19:47:30,704 - INFO - 2122
+2023-12-16 19:47:30,704 - INFO - ------------------------------------------------------------Evaluating------------------------------------------------------------
+2023-12-16 19:48:04,943 - INFO - Restart Num 4
+2023-12-16 19:48:04,944 - INFO - Task--8:
+2023-12-16 19:48:04,944 - INFO - Current test acc: 0.3246753246753247
+2023-12-16 19:48:04,944 - INFO - History test acc: 0.3930254476908577
+2023-12-16 19:48:04,944 - INFO - Accuracy_test_current: [0.8108108108108109, 0.3333333333333333, 0.6727272727272727, 0.6485507246376812, 0.31343283582089554, 0.1963470319634703, 0.3206997084548105, 0.3246753246753247]
+2023-12-16 19:48:04,944 - INFO - Accuracy_test_total: [0.8108108108108109, 0.6313291139240507, 0.5751173708920188, 0.574468085106383, 0.5146726862302483, 0.44638242894056845, 0.41723955579058697, 0.3930254476908577]
+2023-12-16 19:48:37,767 - INFO - Accuracy_per_task_current_test: [0.43822393822393824, 0.6140350877192983, 0.4863636363636364, 0.5181159420289855, 0.3333333333333333, 0.2237442922374429, 0.27988338192419826, 0.3246753246753247]
+2023-12-16 19:48:37,959 - INFO - Result_whole_test: [array([86.29343629, 64.4504749 , 51.58636898, 49.80988593, 37.34767025,
+       42.78637771, 36.61971831, 37.98303487]), array([77.60617761, 64.75300401, 55.06198347, 49.27652733, 43.28922495,
+       38.15402704, 34.64773922, 37.70028275]), array([82.43243243, 63.7279597 , 54.88647581, 54.01459854, 48.60529986,
+       42.76276276, 38.50477797, 35.81526861]), array([81.08108108, 63.13291139, 57.51173709, 57.44680851, 51.46726862,
+       44.63824289, 41.72395558, 39.30254477])]
+2023-12-16 19:48:37,959 - INFO - Avg_result_cur_test: [0.81853282 0.42593525 0.56312895 0.64049859 0.31175754 0.38405771
+ 0.4122445  0.45325107]
+2023-12-16 19:48:37,960 - INFO - Avg_result_all_test: [81.85328185 64.0160875  54.76164134 52.63695508 45.17736592 42.0853526
+ 37.87404777 37.70028275]
+2023-12-16 19:48:37,960 - INFO - Std_result_all_test: [3.10984627 0.63141825 2.10660688 3.32856524 5.38940669 2.39389276
+ 2.60777779 1.24503721]
+2023-12-16 19:49:10,502 - INFO - Accuracy_result_all_test: [0.43822393822393824, 0.6140350877192983, 0.4863636363636364, 0.5181159420289855, 0.3333333333333333, 0.2237442922374429, 0.27988338192419826, 0.3246753246753247]
+2023-12-16 19:49:10,502 - INFO - Bwt_whole: [-0.13220433462385164, -0.152850683352409, -0.18373208056946105, -0.05745744370249165]
+2023-12-16 19:49:10,502 - INFO - Fwt_whole: [0.08760269402709013, 0.05876680881509873, 0.03411768031256891, 0.046786525782277]
+2023-12-16 19:49:10,502 - INFO - Avg_bwt_whole: -0.13156113556205334
+2023-12-16 19:49:10,502 - INFO - Avg_fwt_whole: 0.05681842723425869
+2023-12-16 19:49:18,335 - INFO - Adding head 'default' with config {'head_type': 'masked_lm', 'vocab_size': 30522, 'embedding_size': 768, 'layers': 2, 'activation_function': 'gelu', 'layer_norm': True, 'bias': True, 'shift_labels': False, 'label2id': None}.
+2023-12-16 19:49:18,839 - INFO - Adding adapter 'ia3_adapter'.
+2023-12-16 19:49:18,843 - INFO - Could not identify valid prediction head(s) from setup 'Stack[ia3_adapter]'.
+2023-12-16 19:49:18,864 - INFO - Current relation: ['person countries of residence', 'organization top members employees', 'organization member of', 'person origin', 'person title', 'organization country of headquarters']
+2023-12-16 19:50:29,815 - INFO - Train Simple Finished!
+2023-12-16 19:51:59,555 - INFO - 600
+2023-12-16 19:51:59,556 - INFO - 2182
+2023-12-16 19:57:18,959 - INFO - Train First Finished!
+2023-12-16 19:57:37,900 - INFO - Length seen relation: 6
+2023-12-16 19:57:37,900 - INFO - Train data memory: 6
+2023-12-16 19:57:48,440 - INFO - Train Memory Finished!
+2023-12-16 19:57:48,443 - INFO - 518
+2023-12-16 19:57:48,443 - INFO - 518
+2023-12-16 19:57:48,443 - INFO - ------------------------------------------------------------Evaluating------------------------------------------------------------
+2023-12-16 19:58:03,533 - INFO - Restart Num 5
+2023-12-16 19:58:03,534 - INFO - Task--1:
+2023-12-16 19:58:03,534 - INFO - Current test acc: 0.8146718146718147
+2023-12-16 19:58:03,534 - INFO - History test acc: 0.8146718146718147
+2023-12-16 19:58:03,534 - INFO - Accuracy_test_current: [0.8146718146718147]
+2023-12-16 19:58:03,534 - INFO - Accuracy_test_total: [0.8146718146718147]
+2023-12-16 19:58:11,138 - INFO - Accuracy_per_task_current_test: [0.8146718146718147]
+2023-12-16 19:58:11,254 - INFO - Current relation: ['person cause of death', 'organization political religious affiliation', 'organization stateorprovince of headquarters', 'person other family', 'person city of death']
+2023-12-16 19:58:20,092 - INFO - Train Simple Finished!
+2023-12-16 19:58:40,172 - INFO - 25
+2023-12-16 19:58:40,172 - INFO - 25
+2023-12-16 19:58:53,142 - INFO - Train First Finished!
+2023-12-16 19:58:56,660 - INFO - Length seen relation: 11
+2023-12-16 19:58:56,660 - INFO - Train data memory: 11
+2023-12-16 19:59:09,319 - INFO - Train Memory Finished!
+2023-12-16 19:59:09,320 - INFO - 201
+2023-12-16 19:59:09,320 - INFO - 719
+2023-12-16 19:59:09,320 - INFO - ------------------------------------------------------------Evaluating------------------------------------------------------------
+2023-12-16 19:59:23,359 - INFO - Restart Num 5
+2023-12-16 19:59:23,360 - INFO - Task--2:
+2023-12-16 19:59:23,360 - INFO - Current test acc: 0.3333333333333333
+2023-12-16 19:59:23,360 - INFO - History test acc: 0.6369958275382476
+2023-12-16 19:59:23,360 - INFO - Accuracy_test_current: [0.8146718146718147, 0.3333333333333333]
+2023-12-16 19:59:23,360 - INFO - Accuracy_test_total: [0.8146718146718147, 0.6369958275382476]
+2023-12-16 19:59:34,451 - INFO - Accuracy_per_task_current_test: [0.7548262548262549, 0.3333333333333333]
+2023-12-16 19:59:34,634 - INFO - Current relation: ['person stateorprovinces of residence', 'person date of death', 'organization number of employees members', 'person alternate names', 'person spouse']
+2023-12-16 19:59:45,314 - INFO - Train Simple Finished!
+2023-12-16 19:59:52,135 - INFO - 25
+2023-12-16 19:59:52,135 - INFO - 25
+2023-12-16 20:00:07,500 - INFO - Train First Finished!
+2023-12-16 20:00:10,961 - INFO - Length seen relation: 16
+2023-12-16 20:00:10,961 - INFO - Train data memory: 16
+2023-12-16 20:00:29,235 - INFO - Train Memory Finished!
+2023-12-16 20:00:29,236 - INFO - 231
+2023-12-16 20:00:29,236 - INFO - 950
+2023-12-16 20:00:29,236 - INFO - ------------------------------------------------------------Evaluating------------------------------------------------------------
+2023-12-16 20:00:46,884 - INFO - Restart Num 5
+2023-12-16 20:00:46,884 - INFO - Task--3:
+2023-12-16 20:00:46,884 - INFO - Current test acc: 0.4588744588744589
+2023-12-16 20:00:46,884 - INFO - History test acc: 0.54
+2023-12-16 20:00:46,884 - INFO - Accuracy_test_current: [0.8146718146718147, 0.3333333333333333, 0.4588744588744589]
+2023-12-16 20:00:46,884 - INFO - Accuracy_test_total: [0.8146718146718147, 0.6369958275382476, 0.54]
+2023-12-16 20:01:01,237 - INFO - Accuracy_per_task_current_test: [0.6293436293436293, 0.40298507462686567, 0.4588744588744589]
+2023-12-16 20:01:01,431 - INFO - Current relation: ['organization subsidiaries', 'organization parents', 'organization alternate names', 'organization city of headquarters', 'person siblings']
+2023-12-16 20:01:15,868 - INFO - Train Simple Finished!
+2023-12-16 20:01:23,836 - INFO - 25
+2023-12-16 20:01:23,837 - INFO - 25
+2023-12-16 20:01:38,420 - INFO - Train First Finished!
+2023-12-16 20:01:42,185 - INFO - Length seen relation: 21
+2023-12-16 20:01:42,185 - INFO - Train data memory: 21
+2023-12-16 20:02:03,661 - INFO - Train Memory Finished!
+2023-12-16 20:02:03,662 - INFO - 343
+2023-12-16 20:02:03,662 - INFO - 1293
+2023-12-16 20:02:03,662 - INFO - ------------------------------------------------------------Evaluating------------------------------------------------------------
+2023-12-16 20:02:27,714 - INFO - Restart Num 5
+2023-12-16 20:02:27,715 - INFO - Task--4:
+2023-12-16 20:02:27,715 - INFO - Current test acc: 0.3032069970845481
+2023-12-16 20:02:27,715 - INFO - History test acc: 0.4539829853054911
+2023-12-16 20:02:27,715 - INFO - Accuracy_test_current: [0.8146718146718147, 0.3333333333333333, 0.4588744588744589, 0.3032069970845481]
+2023-12-16 20:02:27,715 - INFO - Accuracy_test_total: [0.8146718146718147, 0.6369958275382476, 0.54, 0.4539829853054911]
+2023-12-16 20:02:47,415 - INFO - Accuracy_per_task_current_test: [0.6177606177606177, 0.417910447761194, 0.341991341991342, 0.3032069970845481]
+2023-12-16 20:02:47,603 - INFO - Current relation: ['person cities of residence', 'person schools attended', 'person country of death', 'person children', 'person charges']
+2023-12-16 20:03:01,781 - INFO - Train Simple Finished!
+2023-12-16 20:03:10,981 - INFO - 25
+2023-12-16 20:03:10,981 - INFO - 25
+2023-12-16 20:03:26,116 - INFO - Train First Finished!
+2023-12-16 20:03:29,692 - INFO - Length seen relation: 26
+2023-12-16 20:03:29,692 - INFO - Train data memory: 26
+2023-12-16 20:03:56,651 - INFO - Train Memory Finished!
+2023-12-16 20:03:56,652 - INFO - 276
+2023-12-16 20:03:56,652 - INFO - 1569
+2023-12-16 20:03:56,652 - INFO - ------------------------------------------------------------Evaluating------------------------------------------------------------
+2023-12-16 20:04:23,676 - INFO - Restart Num 5
+2023-12-16 20:04:23,677 - INFO - Task--5:
+2023-12-16 20:04:23,677 - INFO - Current test acc: 0.532608695652174
+2023-12-16 20:04:23,677 - INFO - History test acc: 0.4321223709369025
+2023-12-16 20:04:23,677 - INFO - Accuracy_test_current: [0.8146718146718147, 0.3333333333333333, 0.4588744588744589, 0.3032069970845481, 0.532608695652174]
+2023-12-16 20:04:23,677 - INFO - Accuracy_test_total: [0.8146718146718147, 0.6369958275382476, 0.54, 0.4539829853054911, 0.4321223709369025]
+2023-12-16 20:04:47,502 - INFO - Accuracy_per_task_current_test: [0.5598455598455598, 0.3333333333333333, 0.3939393939393939, 0.24198250728862974, 0.532608695652174]
+2023-12-16 20:04:47,687 - INFO - Current relation: ['organization founded', 'person age', 'person city of birth', 'organization members', 'person religion']
+2023-12-16 20:05:01,528 - INFO - Train Simple Finished!
+2023-12-16 20:05:12,037 - INFO - 25
+2023-12-16 20:05:12,037 - INFO - 25
+2023-12-16 20:05:28,185 - INFO - Train First Finished!
+2023-12-16 20:05:31,692 - INFO - Length seen relation: 31
+2023-12-16 20:05:31,693 - INFO - Train data memory: 31
+2023-12-16 20:06:01,924 - INFO - Train Memory Finished!
+2023-12-16 20:06:01,925 - INFO - 220
+2023-12-16 20:06:01,925 - INFO - 1789
+2023-12-16 20:06:01,925 - INFO - ------------------------------------------------------------Evaluating------------------------------------------------------------
+2023-12-16 20:06:31,200 - INFO - Restart Num 5
+2023-12-16 20:06:31,201 - INFO - Task--6:
+2023-12-16 20:06:31,201 - INFO - Current test acc: 0.6227272727272727
+2023-12-16 20:06:31,201 - INFO - History test acc: 0.43376187814421463
+2023-12-16 20:06:31,201 - INFO - Accuracy_test_current: [0.8146718146718147, 0.3333333333333333, 0.4588744588744589, 0.3032069970845481, 0.532608695652174, 0.6227272727272727]
+2023-12-16 20:06:31,201 - INFO - Accuracy_test_total: [0.8146718146718147, 0.6369958275382476, 0.54, 0.4539829853054911, 0.4321223709369025, 0.43376187814421463]
+2023-12-16 20:06:58,446 - INFO - Accuracy_per_task_current_test: [0.5057915057915058, 0.3781094527363184, 0.3722943722943723, 0.282798833819242, 0.427536231884058, 0.6227272727272727]
+2023-12-16 20:06:58,631 - INFO - Current relation: ['person date of birth', 'person stateorprovince of birth', 'person parents', 'person employee of', 'person stateorprovince of death']
+2023-12-16 20:07:13,492 - INFO - Train Simple Finished!
+2023-12-16 20:07:25,172 - INFO - 25
+2023-12-16 20:07:25,172 - INFO - 25
+2023-12-16 20:07:40,706 - INFO - Train First Finished!
+2023-12-16 20:07:44,196 - INFO - Length seen relation: 36
+2023-12-16 20:07:44,196 - INFO - Train data memory: 36
+2023-12-16 20:08:20,681 - INFO - Train Memory Finished!
+2023-12-16 20:08:20,681 - INFO - 219
+2023-12-16 20:08:20,681 - INFO - 2008
+2023-12-16 20:08:20,681 - INFO - ------------------------------------------------------------Evaluating------------------------------------------------------------
+2023-12-16 20:08:52,950 - INFO - Restart Num 5
+2023-12-16 20:08:52,951 - INFO - Task--7:
+2023-12-16 20:08:52,951 - INFO - Current test acc: 0.1917808219178082
+2023-12-16 20:08:52,951 - INFO - History test acc: 0.38695219123505975
+2023-12-16 20:08:52,951 - INFO - Accuracy_test_current: [0.8146718146718147, 0.3333333333333333, 0.4588744588744589, 0.3032069970845481, 0.532608695652174, 0.6227272727272727, 0.1917808219178082]
+2023-12-16 20:08:52,951 - INFO - Accuracy_test_total: [0.8146718146718147, 0.6369958275382476, 0.54, 0.4539829853054911, 0.4321223709369025, 0.43376187814421463, 0.38695219123505975]
+2023-12-16 20:09:23,365 - INFO - Accuracy_per_task_current_test: [0.4922779922779923, 0.31343283582089554, 0.2683982683982684, 0.2915451895043732, 0.4528985507246377, 0.5909090909090909, 0.1917808219178082]
+2023-12-16 20:09:23,550 - INFO - Current relation: ['person country of birth', 'organization website', 'organization shareholders', 'organization dissolved', 'organization founded by']
+2023-12-16 20:09:37,853 - INFO - Train Simple Finished!
+2023-12-16 20:09:50,877 - INFO - 25
+2023-12-16 20:09:50,877 - INFO - 25
+2023-12-16 20:10:06,994 - INFO - Train First Finished!
+2023-12-16 20:10:10,491 - INFO - Length seen relation: 41
+2023-12-16 20:10:10,491 - INFO - Train data memory: 41
+2023-12-16 20:10:53,859 - INFO - Train Memory Finished!
+2023-12-16 20:10:53,860 - INFO - 114
+2023-12-16 20:10:53,860 - INFO - 2122
+2023-12-16 20:10:53,860 - INFO - ------------------------------------------------------------Evaluating------------------------------------------------------------
+2023-12-16 20:11:26,546 - INFO - Restart Num 5
+2023-12-16 20:11:26,547 - INFO - Task--8:
+2023-12-16 20:11:26,547 - INFO - Current test acc: 0.45614035087719296
+2023-12-16 20:11:26,547 - INFO - History test acc: 0.34637134778510836
+2023-12-16 20:11:26,547 - INFO - Accuracy_test_current: [0.8146718146718147, 0.3333333333333333, 0.4588744588744589, 0.3032069970845481, 0.532608695652174, 0.6227272727272727, 0.1917808219178082, 0.45614035087719296]
+2023-12-16 20:11:26,547 - INFO - Accuracy_test_total: [0.8146718146718147, 0.6369958275382476, 0.54, 0.4539829853054911, 0.4321223709369025, 0.43376187814421463, 0.38695219123505975, 0.34637134778510836]
+2023-12-16 20:11:58,996 - INFO - Accuracy_per_task_current_test: [0.3996138996138996, 0.30845771144278605, 0.2943722943722944, 0.21282798833819241, 0.45652173913043476, 0.55, 0.1187214611872146, 0.45614035087719296]
+2023-12-16 20:11:59,182 - INFO - Result_whole_test: [array([86.29343629, 64.4504749 , 51.58636898, 49.80988593, 37.34767025,
+       42.78637771, 36.61971831, 37.98303487]), array([77.60617761, 64.75300401, 55.06198347, 49.27652733, 43.28922495,
+       38.15402704, 34.64773922, 37.70028275]), array([82.43243243, 63.7279597 , 54.88647581, 54.01459854, 48.60529986,
+       42.76276276, 38.50477797, 35.81526861]), array([81.08108108, 63.13291139, 57.51173709, 57.44680851, 51.46726862,
+       44.63824289, 41.72395558, 39.30254477]), array([81.46718147, 63.69958275, 54.        , 45.39829853, 43.21223709,
+       43.37618781, 38.69521912, 34.63713478])]
+2023-12-16 20:11:59,182 - INFO - Avg_result_cur_test: [0.81776062 0.40741487 0.54227805 0.57304027 0.35592777 0.43179162
+ 0.36815176 0.45382893]
+2023-12-16 20:11:59,182 - INFO - Avg_result_all_test: [81.77606178 63.95278655 54.60931307 51.18922377 44.78434016 42.34351964
+ 38.03828204 37.08765316]
+2023-12-16 20:11:59,182 - INFO - Std_result_all_test: [2.78581529 0.57877391 1.90867746 4.15297255 4.88410079 2.2025392
+ 2.35548203 1.65570354]
+2023-12-16 20:12:31,801 - INFO - Accuracy_result_all_test: [0.3996138996138996, 0.30845771144278605, 0.2943722943722944, 0.21282798833819241, 0.45652173913043476, 0.55, 0.1187214611872146, 0.45614035087719296]
+2023-12-16 20:12:31,802 - INFO - Bwt_whole: [-0.13220433462385164, -0.152850683352409, -0.18373208056946105, -0.05745744370249165, -0.1309554714537983]
+2023-12-16 20:12:31,802 - INFO - Fwt_whole: [0.08760269402709013, 0.05876680881509873, 0.03411768031256891, 0.046786525782277, 0.028550322889643386]
+2023-12-16 20:12:31,802 - INFO - Avg_bwt_whole: -0.13144000274040232
+2023-12-16 20:12:31,802 - INFO - Avg_fwt_whole: 0.05116480636533562
+2023-12-16 20:12:39,815 - INFO - Adding head 'default' with config {'head_type': 'masked_lm', 'vocab_size': 30522, 'embedding_size': 768, 'layers': 2, 'activation_function': 'gelu', 'layer_norm': True, 'bias': True, 'shift_labels': False, 'label2id': None}.
+2023-12-16 20:12:40,318 - INFO - Adding adapter 'ia3_adapter'.
+2023-12-16 20:12:40,322 - INFO - Could not identify valid prediction head(s) from setup 'Stack[ia3_adapter]'.
+2023-12-16 20:12:40,342 - INFO - Current relation: ['person countries of residence', 'organization top members employees', 'organization member of', 'person origin', 'person title', 'organization country of headquarters']
+2023-12-16 20:13:50,516 - INFO - Train Simple Finished!
+2023-12-16 20:15:21,200 - INFO - 600
+2023-12-16 20:15:21,200 - INFO - 1022
+2023-12-16 20:20:41,690 - INFO - Train First Finished!
+2023-12-16 20:21:00,760 - INFO - Length seen relation: 6
+2023-12-16 20:21:00,760 - INFO - Train data memory: 6
+2023-12-16 20:21:11,640 - INFO - Train Memory Finished!
+2023-12-16 20:21:11,643 - INFO - 518
+2023-12-16 20:21:11,643 - INFO - 518
+2023-12-16 20:21:11,643 - INFO - ------------------------------------------------------------Evaluating------------------------------------------------------------
+2023-12-16 20:21:27,033 - INFO - Restart Num 6
+2023-12-16 20:21:27,033 - INFO - Task--1:
+2023-12-16 20:21:27,033 - INFO - Current test acc: 0.8436293436293436
+2023-12-16 20:21:27,033 - INFO - History test acc: 0.8436293436293436
+2023-12-16 20:21:27,033 - INFO - Accuracy_test_current: [0.8436293436293436]
+2023-12-16 20:21:27,033 - INFO - Accuracy_test_total: [0.8436293436293436]
+2023-12-16 20:21:34,715 - INFO - Accuracy_per_task_current_test: [0.8436293436293436]
+2023-12-16 20:21:34,830 - INFO - Current relation: ['person cities of residence', 'person schools attended', 'person country of death', 'person children', 'person charges']
+2023-12-16 20:21:45,008 - INFO - Train Simple Finished!
+2023-12-16 20:21:50,670 - INFO - 25
+2023-12-16 20:21:50,671 - INFO - 25
+2023-12-16 20:22:04,910 - INFO - Train First Finished!
+2023-12-16 20:22:08,526 - INFO - Length seen relation: 11
+2023-12-16 20:22:08,526 - INFO - Train data memory: 11
+2023-12-16 20:22:21,200 - INFO - Train Memory Finished!
+2023-12-16 20:22:21,200 - INFO - 276
+2023-12-16 20:22:21,200 - INFO - 794
+2023-12-16 20:22:21,200 - INFO - ------------------------------------------------------------Evaluating------------------------------------------------------------
+2023-12-16 20:22:37,016 - INFO - Restart Num 6
+2023-12-16 20:22:37,017 - INFO - Task--2:
+2023-12-16 20:22:37,017 - INFO - Current test acc: 0.5144927536231884
+2023-12-16 20:22:37,017 - INFO - History test acc: 0.6763224181360201
+2023-12-16 20:22:37,017 - INFO - Accuracy_test_current: [0.8436293436293436, 0.5144927536231884]
+2023-12-16 20:22:37,017 - INFO - Accuracy_test_total: [0.8436293436293436, 0.6763224181360201]
+2023-12-16 20:22:48,727 - INFO - Accuracy_per_task_current_test: [0.7625482625482626, 0.5144927536231884]
+2023-12-16 20:22:48,912 - INFO - Current relation: ['person country of birth', 'organization website', 'organization shareholders', 'organization dissolved', 'organization founded by']
+2023-12-16 20:22:57,694 - INFO - Train Simple Finished!
+2023-12-16 20:23:04,405 - INFO - 25
+2023-12-16 20:23:04,405 - INFO - 25
+2023-12-16 20:23:18,144 - INFO - Train First Finished!
+2023-12-16 20:23:21,641 - INFO - Length seen relation: 16
+2023-12-16 20:23:21,641 - INFO - Train data memory: 16
+2023-12-16 20:23:40,547 - INFO - Train Memory Finished!
+2023-12-16 20:23:40,547 - INFO - 114
+2023-12-16 20:23:40,547 - INFO - 908
+2023-12-16 20:23:40,547 - INFO - ------------------------------------------------------------Evaluating------------------------------------------------------------
+2023-12-16 20:23:55,748 - INFO - Restart Num 6
+2023-12-16 20:23:55,749 - INFO - Task--3:
+2023-12-16 20:23:55,749 - INFO - Current test acc: 0.40350877192982454
+2023-12-16 20:23:55,749 - INFO - History test acc: 0.5671806167400881
+2023-12-16 20:23:55,749 - INFO - Accuracy_test_current: [0.8436293436293436, 0.5144927536231884, 0.40350877192982454]
+2023-12-16 20:23:55,749 - INFO - Accuracy_test_total: [0.8436293436293436, 0.6763224181360201, 0.5671806167400881]
+2023-12-16 20:24:09,626 - INFO - Accuracy_per_task_current_test: [0.6525096525096525, 0.4746376811594203, 0.40350877192982454]
+2023-12-16 20:24:09,826 - INFO - Current relation: ['organization founded', 'person age', 'person city of birth', 'organization members', 'person religion']
+2023-12-16 20:24:21,425 - INFO - Train Simple Finished!
+2023-12-16 20:24:29,326 - INFO - 25
+2023-12-16 20:24:29,327 - INFO - 25
+2023-12-16 20:24:44,900 - INFO - Train First Finished!
+2023-12-16 20:24:48,338 - INFO - Length seen relation: 21
+2023-12-16 20:24:48,338 - INFO - Train data memory: 21
+2023-12-16 20:25:10,630 - INFO - Train Memory Finished!
+2023-12-16 20:25:10,631 - INFO - 220
+2023-12-16 20:25:10,631 - INFO - 1128
+2023-12-16 20:25:10,631 - INFO - ------------------------------------------------------------Evaluating------------------------------------------------------------
+2023-12-16 20:25:30,390 - INFO - Restart Num 6
+2023-12-16 20:25:30,391 - INFO - Task--4:
+2023-12-16 20:25:30,391 - INFO - Current test acc: 0.6272727272727273
+2023-12-16 20:25:30,391 - INFO - History test acc: 0.5656028368794326
+2023-12-16 20:25:30,391 - INFO - Accuracy_test_current: [0.8436293436293436, 0.5144927536231884, 0.40350877192982454, 0.6272727272727273]
+2023-12-16 20:25:30,391 - INFO - Accuracy_test_total: [0.8436293436293436, 0.6763224181360201, 0.5671806167400881, 0.5656028368794326]
+2023-12-16 20:25:47,447 - INFO - Accuracy_per_task_current_test: [0.5501930501930502, 0.5471014492753623, 0.5614035087719298, 0.6272727272727273]
+2023-12-16 20:25:47,641 - INFO - Current relation: ['person stateorprovinces of residence', 'person date of death', 'organization number of employees members', 'person alternate names', 'person spouse']
+2023-12-16 20:26:00,449 - INFO - Train Simple Finished!
+2023-12-16 20:26:09,677 - INFO - 25
+2023-12-16 20:26:09,678 - INFO - 25
+2023-12-16 20:26:24,794 - INFO - Train First Finished!
+2023-12-16 20:26:28,320 - INFO - Length seen relation: 26
+2023-12-16 20:26:28,321 - INFO - Train data memory: 26
+2023-12-16 20:26:55,679 - INFO - Train Memory Finished!
+2023-12-16 20:26:55,680 - INFO - 231
+2023-12-16 20:26:55,680 - INFO - 1359
+2023-12-16 20:26:55,680 - INFO - ------------------------------------------------------------Evaluating------------------------------------------------------------
+2023-12-16 20:27:19,284 - INFO - Restart Num 6
+2023-12-16 20:27:19,285 - INFO - Task--5:
+2023-12-16 20:27:19,285 - INFO - Current test acc: 0.30303030303030304
+2023-12-16 20:27:19,285 - INFO - History test acc: 0.4922737306843267
+2023-12-16 20:27:19,285 - INFO - Accuracy_test_current: [0.8436293436293436, 0.5144927536231884, 0.40350877192982454, 0.6272727272727273, 0.30303030303030304]
+2023-12-16 20:27:19,285 - INFO - Accuracy_test_total: [0.8436293436293436, 0.6763224181360201, 0.5671806167400881, 0.5656028368794326, 0.4922737306843267]
+2023-12-16 20:27:40,479 - INFO - Accuracy_per_task_current_test: [0.4613899613899614, 0.5253623188405797, 0.6578947368421053, 0.6363636363636364, 0.30303030303030304]
+2023-12-16 20:27:40,663 - INFO - Current relation: ['person date of birth', 'person stateorprovince of birth', 'person parents', 'person employee of', 'person stateorprovince of death']
+2023-12-16 20:27:54,729 - INFO - Train Simple Finished!
+2023-12-16 20:28:05,391 - INFO - 25
+2023-12-16 20:28:05,391 - INFO - 25
+2023-12-16 20:28:22,016 - INFO - Train First Finished!
+2023-12-16 20:28:25,607 - INFO - Length seen relation: 31
+2023-12-16 20:28:25,608 - INFO - Train data memory: 31
+2023-12-16 20:28:56,488 - INFO - Train Memory Finished!
+2023-12-16 20:28:56,489 - INFO - 219
+2023-12-16 20:28:56,489 - INFO - 1578
+2023-12-16 20:28:56,489 - INFO - ------------------------------------------------------------Evaluating------------------------------------------------------------
+2023-12-16 20:29:22,913 - INFO - Restart Num 6
+2023-12-16 20:29:22,914 - INFO - Task--6:
+2023-12-16 20:29:22,914 - INFO - Current test acc: 0.1598173515981735
+2023-12-16 20:29:22,914 - INFO - History test acc: 0.42839036755386567
+2023-12-16 20:29:22,914 - INFO - Accuracy_test_current: [0.8436293436293436, 0.5144927536231884, 0.40350877192982454, 0.6272727272727273, 0.30303030303030304, 0.1598173515981735]
+2023-12-16 20:29:22,914 - INFO - Accuracy_test_total: [0.8436293436293436, 0.6763224181360201, 0.5671806167400881, 0.5656028368794326, 0.4922737306843267, 0.42839036755386567]
+2023-12-16 20:29:47,214 - INFO - Accuracy_per_task_current_test: [0.4671814671814672, 0.5, 0.5614035087719298, 0.5636363636363636, 0.31601731601731603, 0.1598173515981735]
+2023-12-16 20:29:47,399 - INFO - Current relation: ['organization subsidiaries', 'organization parents', 'organization alternate names', 'organization city of headquarters', 'person siblings']
+2023-12-16 20:30:04,130 - INFO - Train Simple Finished!
+2023-12-16 20:30:15,891 - INFO - 25
+2023-12-16 20:30:15,891 - INFO - 25
+2023-12-16 20:30:31,711 - INFO - Train First Finished!
+2023-12-16 20:30:35,223 - INFO - Length seen relation: 36
+2023-12-16 20:30:35,223 - INFO - Train data memory: 36
+2023-12-16 20:31:11,433 - INFO - Train Memory Finished!
+2023-12-16 20:31:11,433 - INFO - 343
+2023-12-16 20:31:11,433 - INFO - 1921
+2023-12-16 20:31:11,433 - INFO - ------------------------------------------------------------Evaluating------------------------------------------------------------
+2023-12-16 20:31:44,228 - INFO - Restart Num 6
+2023-12-16 20:31:44,228 - INFO - Task--7:
+2023-12-16 20:31:44,228 - INFO - Current test acc: 0.3760932944606414
+2023-12-16 20:31:44,228 - INFO - History test acc: 0.4023945861530453
+2023-12-16 20:31:44,228 - INFO - Accuracy_test_current: [0.8436293436293436, 0.5144927536231884, 0.40350877192982454, 0.6272727272727273, 0.30303030303030304, 0.1598173515981735, 0.3760932944606414]
+2023-12-16 20:31:44,228 - INFO - Accuracy_test_total: [0.8436293436293436, 0.6763224181360201, 0.5671806167400881, 0.5656028368794326, 0.4922737306843267, 0.42839036755386567, 0.4023945861530453]
+2023-12-16 20:32:13,714 - INFO - Accuracy_per_task_current_test: [0.444015444015444, 0.45652173913043476, 0.5350877192982456, 0.4954545454545455, 0.2683982683982684, 0.2557077625570776, 0.3760932944606414]
+2023-12-16 20:32:13,899 - INFO - Current relation: ['person cause of death', 'organization political religious affiliation', 'organization stateorprovince of headquarters', 'person other family', 'person city of death']
+2023-12-16 20:32:29,593 - INFO - Train Simple Finished!
+2023-12-16 20:32:42,469 - INFO - 25
+2023-12-16 20:32:42,469 - INFO - 25
+2023-12-16 20:33:00,201 - INFO - Train First Finished!
+2023-12-16 20:33:03,644 - INFO - Length seen relation: 41
+2023-12-16 20:33:03,644 - INFO - Train data memory: 41
+2023-12-16 20:33:45,052 - INFO - Train Memory Finished!
+2023-12-16 20:33:45,052 - INFO - 201
+2023-12-16 20:33:45,052 - INFO - 2122
+2023-12-16 20:33:45,052 - INFO - ------------------------------------------------------------Evaluating------------------------------------------------------------
+2023-12-16 20:34:18,889 - INFO - Restart Num 6
+2023-12-16 20:34:18,890 - INFO - Task--8:
+2023-12-16 20:34:18,895 - INFO - Current test acc: 0.2537313432835821
+2023-12-16 20:34:18,895 - INFO - History test acc: 0.3661639962299717
+2023-12-16 20:34:18,895 - INFO - Accuracy_test_current: [0.8436293436293436, 0.5144927536231884, 0.40350877192982454, 0.6272727272727273, 0.30303030303030304, 0.1598173515981735, 0.3760932944606414, 0.2537313432835821]
+2023-12-16 20:34:18,895 - INFO - Accuracy_test_total: [0.8436293436293436, 0.6763224181360201, 0.5671806167400881, 0.5656028368794326, 0.4922737306843267, 0.42839036755386567, 0.4023945861530453, 0.3661639962299717]
+2023-12-16 20:34:51,209 - INFO - Accuracy_per_task_current_test: [0.3745173745173745, 0.48188405797101447, 0.6052631578947368, 0.5045454545454545, 0.2813852813852814, 0.3287671232876712, 0.239067055393586, 0.2537313432835821]
+2023-12-16 20:34:51,400 - INFO - Result_whole_test: [array([86.29343629, 64.4504749 , 51.58636898, 49.80988593, 37.34767025,
+       42.78637771, 36.61971831, 37.98303487]), array([77.60617761, 64.75300401, 55.06198347, 49.27652733, 43.28922495,
+       38.15402704, 34.64773922, 37.70028275]), array([82.43243243, 63.7279597 , 54.88647581, 54.01459854, 48.60529986,
+       42.76276276, 38.50477797, 35.81526861]), array([81.08108108, 63.13291139, 57.51173709, 57.44680851, 51.46726862,
+       44.63824289, 41.72395558, 39.30254477]), array([81.46718147, 63.69958275, 54.        , 45.39829853, 43.21223709,
+       43.37618781, 38.69521912, 34.63713478]), array([84.36293436, 67.63224181, 56.71806167, 56.56028369, 49.22737307,
+       42.83903676, 40.23945862, 36.61639962])]
+2023-12-16 20:34:51,400 - INFO - Avg_result_cur_test: [0.82207207 0.42526118 0.51914984 0.58207902 0.34711153 0.38646258
+ 0.36947535 0.42047933]
+2023-12-16 20:34:51,401 - INFO - Avg_result_all_test: [82.20720721 64.56602909 54.96077117 52.08440042 45.52484564 42.42610583
+ 38.4051448  37.0091109 ]
+2023-12-16 20:34:51,401 - INFO - Std_result_all_test: [2.7196944  1.46951742 1.91141013 4.28711524 4.75609528 2.0190967
+ 2.30141719 1.52161305]
+2023-12-16 20:35:23,896 - INFO - Accuracy_result_all_test: [0.3745173745173745, 0.48188405797101447, 0.6052631578947368, 0.5045454545454545, 0.2813852813852814, 0.3287671232876712, 0.239067055393586, 0.2537313432835821]
+2023-12-16 20:35:23,897 - INFO - Bwt_whole: [-0.13220433462385164, -0.152850683352409, -0.18373208056946105, -0.05745744370249165, -0.1309554714537983, -0.05891643436415469]
+2023-12-16 20:35:23,897 - INFO - Fwt_whole: [0.08760269402709013, 0.05876680881509873, 0.03411768031256891, 0.046786525782277, 0.028550322889643386, 0.056990701591487766]
+2023-12-16 20:35:23,897 - INFO - Avg_bwt_whole: -0.11935274134436107
+2023-12-16 20:35:23,897 - INFO - Avg_fwt_whole: 0.05213578890302765

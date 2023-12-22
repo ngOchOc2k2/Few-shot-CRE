@@ -1,0 +1,3 @@
+2023-12-17 17:28:57,026 - INFO - Current relation: ['person countries of residence', 'organization top members employees', 'organization member of', 'person origin', 'person title', 'organization country of headquarters']
+2023-12-17 17:30:40,805 - INFO - Train Simple Finished!
+2023-12-17 17:32:21,979 - INFO - Length expanded train init: 614
