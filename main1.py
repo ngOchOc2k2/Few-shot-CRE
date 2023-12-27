@@ -14,7 +14,9 @@ import numpy as np
 from sklearn.cluster import KMeans
 import collections
 from copy import deepcopy
+from transformers import AutoTokenizer
 import os
+from process import sequence_data_sampler_bert_prompt, data_sampler_bert_prompt_deal_first_task
 # os.environ["CUDA_LAUNCH_BLOCKING"] = "1"
 from tqdm import tqdm
 import logging
@@ -26,7 +28,19 @@ color_epoch = '\033[92m'
 color_loss = '\033[92m'  
 color_number = '\033[93m'
 color_reset = '\033[0m'
-    
+
+
+def set_seed(config, seed):
+    config['n_gpu'] = torch.cuda.device_count()
+    random.seed(seed)
+    np.random.seed(seed)
+    torch.manual_seed(seed)
+    if config['n_gpu'] > 0 and torch.cuda.is_available() and config.use_gpu:
+        torch.cuda.manual_seed_all(seed)
+        torch.backends.cudnn.deterministic = True
+        torch.backends.cudnn.benchmark = False
+
+        
 
 class DoubleLoss(nn.Module):
     def __init__(self, temperature=4.0):
@@ -531,11 +545,6 @@ class args:
 
 
 if __name__ == '__main__':
-    # parser = argparse.ArgumentParser()
-    # parser.add_argument("--task", default="tacred", type=str)
-    # parser.add_argument("--shot", default=10, type=int)
-    # parser.add_argument('--config', default='config.ini')
-    # args = parser.parse_args()
     config = args
 
     config.device = torch.device(config.device)
@@ -556,11 +565,15 @@ if __name__ == '__main__':
         config.rel_des_file = "/kaggle/input/data-re/data/fewrel/relation_description.txt"
         config.num_of_relation = 80
         if config.shot == 5:
+            config.first_task_k_way = 10
+            config.k_shot = 5
             config.rel_cluster_label = "/kaggle/input/data-re/data/fewrel/CFRLdata_10_100_10_5/rel_cluster_label_0.npy"
             config.training_file = "/kaggle/input/data-re/data/fewrel/CFRLdata_10_100_10_5/train_0.txt"
             config.valid_file = "/kaggle/input/data-re/data/fewrel/CFRLdata_10_100_10_5/valid_0.txt"
             config.test_file = "/kaggle/input/data-re/data/fewrel/CFRLdata_10_100_10_5/test_0.txt"
         elif config.shot == 10:
+            config.first_task_k_way = 10
+            config.k_shot = 10
             config.rel_cluster_label = "/kaggle/input/data-re/data/fewrel/CFRLdata_10_100_10_10/rel_cluster_label_0.npy"
             config.training_file = "/kaggle/input/data-re/data/fewrel/CFRLdata_10_100_10_10/train_0.txt"
             config.valid_file = "/kaggle/input/data-re/data/fewrel/CFRLdata_10_100_10_10/valid_0.txt"
@@ -576,11 +589,15 @@ if __name__ == '__main__':
         config.rel_feature = "/kaggle/input/data-re/data/tacred/rel_feature.npy"
         config.num_of_relation = 41
         if config.shot == 5:
+            config.first_task_k_way = 6
+            config.k_shot = 5
             config.rel_cluster_label = "/kaggle/input/data-re/data/tacred/CFRLdata_10_100_10_5/rel_cluster_label_0.npy"
             config.training_file = "/kaggle/input/data-re/data/tacred/CFRLdata_10_100_10_5/train_0.txt"
             config.valid_file = "/kaggle/input/data-re/data/tacred/CFRLdata_10_100_10_5/valid_0.txt"
             config.test_file = "/kaggle/input/data-re/data/tacred/CFRLdata_10_100_10_5/test_0.txt"
         else:
+            config.first_task_k_way = 6
+            config.k_shot = 10
             config.rel_cluster_label = "/kaggle/input/data-re/data/tacred/CFRLdata_10_100_10_10/rel_cluster_label_0.npy"
             config.training_file = "/kaggle/input/data-re/data/tacred/CFRLdata_10_100_10_10/train_0.txt"
             config.valid_file = "/kaggle/input/data-re/data/tacred/CFRLdata_10_100_10_10/valid_0.txt"
@@ -595,16 +612,26 @@ if __name__ == '__main__':
     relation_divides = []
     for i in range(10):
         relation_divides.append([])
+
+    tokenizer = AutoTokenizer.from_pretrained(config.bert_path)
+
+    template = 'e1 mask e2 . '
+    print('Template: %s'%template)
+
         
+    sampler = data_sampler_bert_prompt_deal_first_task(config, tokenizer, template)
     for rou in range(config.total_round):
         test_cur = []
         test_total = []
         random.seed(config.seed+rou*100)
-        sampler = data_sampler(config=config, seed=config.seed+rou*100)
         id2rel = sampler.id2rel
         rel2id = sampler.rel2id
         id2sentence = sampler.get_id2sent()
         
+        
+        set_seed(config, config['random_seed'] + 10 * i)
+        sampler.set_seed(config['random_seed'] + 10 * i)
+            
         bert_ori = Bert_Encoder(config=config, is_lora=False).to(config.device)
         dropout_layer = Dropout_Layer(config=config).to(config.device)
 
